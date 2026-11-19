@@ -1,0 +1,3668 @@
+{
+  "snapshot_date": "2026-11-19",
+  "groups": {
+    "biotech": "Mid-size biotech",
+    "big_pharma": "Big pharma (Phase 3)"
+  },
+  "trials": [
+    {
+      "company": "Zealand",
+      "group": "biotech",
+      "nct_id": "NCT07682818",
+      "title": "Pharmacokinetics of Petrelintide in Participants With Impaired Hepatic Function",
+      "sponsor": "Zealand Pharma",
+      "phases": [
+        "PHASE1"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Impaired Hepatic Function",
+      "start_date": "2026-05-18",
+      "primary_completion_date": "2027-04-12",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-06",
+      "last_update_posted": "2026-07-06",
+      "enrollment": 36
+    },
+    {
+      "company": "Zealand",
+      "group": "biotech",
+      "nct_id": "NCT07733089",
+      "title": "A Trial to Understand How Safe and Well Tolerated ZP9830 is and How it Works in People With Plaque Psoriasis Over an 8-week Treatment Period",
+      "sponsor": "Zealand Pharma",
+      "phases": [
+        "PHASE1"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Plaque Psoriasis",
+      "start_date": "2026-07-22",
+      "primary_completion_date": "2027-04",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-07",
+      "last_update_posted": "2026-07-29",
+      "enrollment": 32
+    },
+    {
+      "company": "Zealand",
+      "group": "biotech",
+      "nct_id": "NCT07228403",
+      "title": "Efficacy and Safety Evaluation of Glepaglutide in Treatment of Short Bowel Syndrome",
+      "sponsor": "Zealand Pharma",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Short Bowel Syndrome (SBS)",
+      "start_date": "2025-12-11",
+      "primary_completion_date": "2028-09-18",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-07",
+      "last_update_posted": "2026-07-30",
+      "enrollment": 28
+    },
+    {
+      "company": "Zealand",
+      "group": "biotech",
+      "nct_id": "NCT06682975",
+      "title": "A Research Study Looking at the Safety of Single and Multiple Doses of ZP9830 and How it Works in the Body of Healthy Participants",
+      "sponsor": "Zealand Pharma",
+      "phases": [
+        "PHASE1"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Healthy Volunteers",
+      "start_date": "2024-11-12",
+      "primary_completion_date": "2026-08",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-02",
+      "last_update_posted": "2026-02-17",
+      "enrollment": 124
+    },
+    {
+      "company": "Zealand",
+      "group": "biotech",
+      "nct_id": "NCT07197944",
+      "title": "Efficacy And Safety Evaluation of Glepaglutide in Treatment of SBS",
+      "sponsor": "Zealand Pharma",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Short Bowel Syndrome",
+      "start_date": "2026-02-11",
+      "primary_completion_date": "2028-10-23",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-09-29",
+      "enrollment": 90
+    },
+    {
+      "company": "Zealand",
+      "group": "biotech",
+      "nct_id": "NCT07721597",
+      "title": "A Single and Multiple Ascending Dose Trial Assessing Safety, Tolerability, Pharmacokinetics and Pharmacodynamics of ZP6590 in Participants With Normal Weight, Overweight and Obesity",
+      "sponsor": "Zealand Pharma",
+      "phases": [
+        "EARLY_PHASE1"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Healthy Participants Study",
+      "start_date": "2026-07-09",
+      "primary_completion_date": "2027-09-06",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-08",
+      "last_update_posted": "2026-08-13",
+      "enrollment": 88
+    },
+    {
+      "company": "Genmab",
+      "group": "biotech",
+      "nct_id": "NCT06525220",
+      "title": "A Phase 3 Study to Evaluate Petosemtamab Plus Pembrolizumab vs Pembrolizumab in First-line Treatment of Head and Neck Cancer (LiGeR - HN1)",
+      "sponsor": "Genmab",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Head and Neck Squamous Cell Carcinoma",
+      "start_date": "2024-09-25",
+      "primary_completion_date": "2028-01",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-10",
+      "last_update_posted": "2026-11-02",
+      "enrollment": 699
+    },
+    {
+      "company": "Genmab",
+      "group": "biotech",
+      "nct_id": "NCT07226752",
+      "title": "A Sub-study Trial of Epcoritamab vs Investigator's Choice Chemotherapy in Relapsed/Refractory Diffuse Large B-cell Lymphoma (R/R DLBCL) in China",
+      "sponsor": "Genmab",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Diffuse Large B-Cell Lymphoma",
+      "start_date": "2022-10-08",
+      "primary_completion_date": "2025-10-13",
+      "primary_completion_type": "ACTUAL",
+      "status_verified_date": "2026-11",
+      "last_update_posted": "2026-11-10",
+      "enrollment": 72
+    },
+    {
+      "company": "Genmab",
+      "group": "biotech",
+      "nct_id": "NCT07775287",
+      "title": "Study of Petosemtamab Plus Chemotherapy Versus Cetuximab or Bevacizumab Plus Chemotherapy in RAS and BRAF Wild Type, Recurrent, Unresectable or Metastatic Colorectal Cancer (LiGeR-CRC2)",
+      "sponsor": "Genmab",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Colorectal Cancer",
+      "start_date": "2026-10-07",
+      "primary_completion_date": "2029-03-30",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-11",
+      "last_update_posted": "2026-11-16",
+      "enrollment": 600
+    },
+    {
+      "company": "Genmab",
+      "group": "biotech",
+      "nct_id": "NCT07387068",
+      "title": "Trial to Evaluate the Safety and Preliminary Efficacy of GEN1079 in Participants With Advanced Solid Tumors",
+      "sponsor": "Genmab",
+      "phases": [
+        "PHASE1"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Advanced Solid Tumors",
+      "start_date": "2026-04-07",
+      "primary_completion_date": "2031-01",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-08",
+      "last_update_posted": "2026-09-09",
+      "enrollment": 121
+    },
+    {
+      "company": "Genmab",
+      "group": "biotech",
+      "nct_id": "NCT05201248",
+      "title": "A Study to Evaluate Adverse Events and Change in Disease Activity of Subcutaneous (SC) Epcoritamab As Monotherapy or Combined With Standard of Care Therapies in Adult Participants in China With B-Cell Non-Hodgkin Lymphoma",
+      "sponsor": "Genmab",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "B-Cell Non-Hodgkin Lymphoma",
+      "start_date": "2022-03-10",
+      "primary_completion_date": "2027-10",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-11-04",
+      "enrollment": 49
+    },
+    {
+      "company": "Genmab",
+      "group": "biotech",
+      "nct_id": "NCT07384715",
+      "title": "First-in-human (FIH) Trial of GEN3018 in Relapsed or Refractory (R/R) Acute Myeloid Leukemia (AML) or Higher-risk Myelodysplastic Syndrome (HR-MDS)",
+      "sponsor": "Genmab",
+      "phases": [
+        "PHASE1"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "R/R AML",
+      "start_date": "2026-02-16",
+      "primary_completion_date": "2029-10-18",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-11",
+      "last_update_posted": "2026-11-04",
+      "enrollment": 78
+    },
+    {
+      "company": "Genmab",
+      "group": "biotech",
+      "nct_id": "NCT07288177",
+      "title": "Study to Assess the Efficacy and Safety of Rina-S in Participants With Non-small Cell Lung Cancer",
+      "sponsor": "Genmab",
+      "phases": [
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Non-small Cell Lung Cancer (NSCLC)",
+      "start_date": "2026-01-30",
+      "primary_completion_date": "2027-11-22",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-10",
+      "last_update_posted": "2026-11-03",
+      "enrollment": 240
+    },
+    {
+      "company": "Genmab",
+      "group": "biotech",
+      "nct_id": "NCT04542824",
+      "title": "Trial of the Safety and Efficacy of Epcoritamab in Japanese Subjects With Relapsed or Refractory (R/R) B-Cell Non-Hodgkin Lymphoma (R/R B-NHL)",
+      "sponsor": "Genmab",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Diffuse Large B Cell Lymphoma",
+      "start_date": "2020-08-20",
+      "primary_completion_date": "2027-09",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-10",
+      "last_update_posted": "2026-11-04",
+      "enrollment": 78
+    },
+    {
+      "company": "Genmab",
+      "group": "biotech",
+      "nct_id": "NCT06057038",
+      "title": "A Safety Trial of GEN1042 in Japanese Subjects With Malignant Solid Tumors",
+      "sponsor": "Genmab",
+      "phases": [
+        "PHASE1"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Malignant Solid Tumor",
+      "start_date": "2023-11-24",
+      "primary_completion_date": "2027-08",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-11",
+      "last_update_posted": "2026-11-03",
+      "enrollment": 8
+    },
+    {
+      "company": "Genmab",
+      "group": "biotech",
+      "nct_id": "NCT03526835",
+      "title": "A Study of Bispecific Antibody MCLA-158 in Patients With Advanced Solid Tumors",
+      "sponsor": "Genmab",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Advanced/Metastatic Solid Tumors",
+      "start_date": "2018-05-02",
+      "primary_completion_date": "2028-05",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-10",
+      "last_update_posted": "2026-11-02",
+      "enrollment": 560
+    },
+    {
+      "company": "Genmab",
+      "group": "biotech",
+      "nct_id": "NCT05409066",
+      "title": "Study of Subcutaneous Epcoritamab in Combination With Intravenous Rituximab and Oral Lenalidomide (R2) to Assess Adverse Events and Change in Disease Activity in Adult Participants With Follicular Lymphoma",
+      "sponsor": "Genmab",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Follicular Lymphoma (FL)",
+      "start_date": "2022-09-20",
+      "primary_completion_date": "2029-12",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-07",
+      "last_update_posted": "2026-07-08",
+      "enrollment": 549
+    },
+    {
+      "company": "Genmab",
+      "group": "biotech",
+      "nct_id": "NCT07859215",
+      "title": "Study to Assess the Efficacy and Safety of Rina-S Plus Standard of Care Compared to Standard of Care Maintenance Treatment After First-line (1L) Platinum-based Chemotherapy in Participants With Ovarian Cancer",
+      "sponsor": "Genmab",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "NOT_YET_RECRUITING",
+      "condition": "Ovarian Cancer",
+      "start_date": "2026-11",
+      "primary_completion_date": "2030-03",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-10-05",
+      "enrollment": 602
+    },
+    {
+      "company": "Genmab",
+      "group": "biotech",
+      "nct_id": "NCT07225270",
+      "title": "Study to Assess the Efficacy and Safety of Rina-S Plus Standard of Care Compared to Standard of Care for Maintenance Treatment of Participants With Recurrent Platinum-sensitive Ovarian Cancer After Second-line (2L) Platinum-based Doublet Chemotherapy",
+      "sponsor": "Genmab",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Ovarian Cancer",
+      "start_date": "2026-04-03",
+      "primary_completion_date": "2028-10",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-11",
+      "last_update_posted": "2026-11-16",
+      "enrollment": 544
+    },
+    {
+      "company": "Genmab",
+      "group": "biotech",
+      "nct_id": "NCT07539311",
+      "title": "Study to Assess the Efficacy and Safety of Rina-S in Participants With Advanced Gastrointestinal (GI) Cancers",
+      "sponsor": "Genmab",
+      "phases": [
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Gastrointestinal Cancers",
+      "start_date": "2026-05-11",
+      "primary_completion_date": "2028-09",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-10",
+      "last_update_posted": "2026-11-03",
+      "enrollment": 160
+    },
+    {
+      "company": "Genmab",
+      "group": "biotech",
+      "nct_id": "NCT06191744",
+      "title": "Study of Subcutaneous Epcoritamab in Combination With Intravenous Rituximab and Oral Lenalidomide (R2) to Assess Adverse Events and Change in Disease Activity in Adult Participants With Previously Untreated Follicular Lymphoma",
+      "sponsor": "Genmab",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Follicular Lymphoma (FL)",
+      "start_date": "2024-02-05",
+      "primary_completion_date": "2037-11",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-08",
+      "last_update_posted": "2026-08-04",
+      "enrollment": 1095
+    },
+    {
+      "company": "Genmab",
+      "group": "biotech",
+      "nct_id": "NCT06496178",
+      "title": "A Phase 3 Study to Evaluate Petosemtamab Compared With Investigator's Choice Monotherapy in Previously Treated Head and Neck Squamous Cell Carcinoma Patients (LiGeR-HN2)",
+      "sponsor": "Genmab",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Head and Neck Squamous Cell Carcinoma",
+      "start_date": "2024-06-25",
+      "primary_completion_date": "2028-02",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-11",
+      "last_update_posted": "2026-11-12",
+      "enrollment": 621
+    },
+    {
+      "company": "Genmab",
+      "group": "biotech",
+      "nct_id": "NCT05283720",
+      "title": "A Study to Evaluate Adverse Events and Change in Disease Activity of Subcutaneous (SC) Epcoritamab in Combination With Oral and Intravenous Anti-Neoplastic Agents in Adult Participants With Non-Hodgkin Lymphoma",
+      "sponsor": "Genmab",
+      "phases": [
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Non-Hodgkin Lymphoma",
+      "start_date": "2022-06-14",
+      "primary_completion_date": "2032-11",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-07",
+      "last_update_posted": "2026-07-07",
+      "enrollment": 264
+    },
+    {
+      "company": "Genmab",
+      "group": "biotech",
+      "nct_id": "NCT07604766",
+      "title": "An Extension Study to Assess the Efficacy of Rina-S Compared to Treatment of Investigator's Choice in Participants With Platinum Resistant Ovarian Cancer in China",
+      "sponsor": "Genmab",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Platinum-resistant Ovarian Cancer",
+      "start_date": "2026-06-26",
+      "primary_completion_date": "2027-09",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-11-03",
+      "enrollment": 82
+    },
+    {
+      "company": "Genmab",
+      "group": "biotech",
+      "nct_id": "NCT04663347",
+      "title": "Safety and Efficacy Trial of Epcoritamab Combinations in Subjects With B-cell Non-Hodgkin Lymphoma (B-NHL)",
+      "sponsor": "Genmab",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Diffuse Large B-Cell Lymphoma",
+      "start_date": "2020-11-03",
+      "primary_completion_date": "2027-09-30",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-10",
+      "last_update_posted": "2026-11-03",
+      "enrollment": 543
+    },
+    {
+      "company": "Genmab",
+      "group": "biotech",
+      "nct_id": "NCT07702032",
+      "title": "Study of Petosemtamab Plus Chemotherapy Versus Cetuximab Plus Chemotherapy in RAS and BRAF Wild-type, Unresectable or Metastatic, Left-sided Colorectal Cancer (LiGeR-CRC1)",
+      "sponsor": "Genmab",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Left-sided Colorectal Cancer",
+      "start_date": "2026-08-11",
+      "primary_completion_date": "2029-07",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-11",
+      "last_update_posted": "2026-11-03",
+      "enrollment": 960
+    },
+    {
+      "company": "Genmab",
+      "group": "biotech",
+      "nct_id": "NCT07416123",
+      "title": "A Study of GEN1106 in Participants With Solid Tumors",
+      "sponsor": "Genmab",
+      "phases": [
+        "PHASE1"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Solid Tumors",
+      "start_date": "2026-04-14",
+      "primary_completion_date": "2029-04-05",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-11",
+      "last_update_posted": "2026-11-03",
+      "enrollment": 103
+    },
+    {
+      "company": "Genmab",
+      "group": "biotech",
+      "nct_id": "NCT07564141",
+      "title": "Study to Assess the Efficacy and Safety of Rina-S With or Without Bevacizumab Compared to Investigator's Choice of Platinum-based Chemotherapy With or Without Bevacizumab as Second-line Treatment in Participants With Recurrent Platinum-sensitive Ovarian Cancer",
+      "sponsor": "Genmab",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Platinum-Sensitive Ovarian Cancer",
+      "start_date": "2026-08-28",
+      "primary_completion_date": "2029-12",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-10",
+      "last_update_posted": "2026-11-04",
+      "enrollment": 688
+    },
+    {
+      "company": "Genmab",
+      "group": "biotech",
+      "nct_id": "NCT06619236",
+      "title": "Study to Assess the Efficacy of Rina-S Compared to Treatment of Investigator's Choice in Participants With Platinum Resistant Ovarian Cancer",
+      "sponsor": "Genmab",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Platinum-resistant Ovarian Cancer",
+      "start_date": "2025-02-07",
+      "primary_completion_date": "2026-08-18",
+      "primary_completion_type": "ACTUAL",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-11-03",
+      "enrollment": 584
+    },
+    {
+      "company": "Genmab",
+      "group": "biotech",
+      "nct_id": "NCT07695831",
+      "title": "A Phase 1 Trial of GEN1119 in Participants With Solid Tumors",
+      "sponsor": "Genmab",
+      "phases": [
+        "PHASE1"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Solid Tumours",
+      "start_date": "2026-08-13",
+      "primary_completion_date": "2029-06",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-10",
+      "last_update_posted": "2026-10-06",
+      "enrollment": 112
+    },
+    {
+      "company": "Genmab",
+      "group": "biotech",
+      "nct_id": "NCT05451810",
+      "title": "A Study to Evaluate Adverse Events of Subcutaneous (SC) Epcoritamab Administered in the Outpatient Setting in Adult Participants With Relapsed or Refractory Diffuse Large B-Cell Lymphoma and Classic Follicular Lymphoma",
+      "sponsor": "Genmab",
+      "phases": [
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Diffuse Large B-Cell Lymphoma",
+      "start_date": "2022-08-17",
+      "primary_completion_date": "2027-03",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-09-11",
+      "enrollment": 184
+    },
+    {
+      "company": "Genmab",
+      "group": "biotech",
+      "nct_id": "NCT05578976",
+      "title": "A Study to Evaluate Change in Disease Activity of Subcutaneous (SC) Epcoritamab Combined With Intravenous and Oral Rituximab, Cyclophosphamide, Doxorubicin Hydrochloride, Vincristine, and Prednisone (R-CHOP) or R-CHOP in Adult Participants With Newly Diagnosed Diffuse Large B-Cell Lymphoma (DLBCL)",
+      "sponsor": "Genmab",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Diffuse Large B-Cell Lymphoma",
+      "start_date": "2023-02-08",
+      "primary_completion_date": "2027-06",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-09-11",
+      "enrollment": 900
+    },
+    {
+      "company": "Genmab",
+      "group": "biotech",
+      "nct_id": "NCT05579366",
+      "title": "Rinatabart Sesutecan (Rina-S, PRO1184, GEN1184) for Advanced Solid Tumors (GCT1184-01/ PRO1184-001)",
+      "sponsor": "Genmab",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "High Grade Epithelial Ovarian Cancer",
+      "start_date": "2022-12-07",
+      "primary_completion_date": "2028-12",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-10",
+      "last_update_posted": "2026-11-04",
+      "enrollment": 952
+    },
+    {
+      "company": "Genmab",
+      "group": "biotech",
+      "nct_id": "NCT04083599",
+      "title": "GEN1042 Safety Trial and Anti-tumor Activity in Participants With Malignant Solid Tumors",
+      "sponsor": "Genmab",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Malignant Solid Tumor",
+      "start_date": "2019-09-17",
+      "primary_completion_date": "2025-12-30",
+      "primary_completion_type": "ACTUAL",
+      "status_verified_date": "2026-08",
+      "last_update_posted": "2026-08-04",
+      "enrollment": 350
+    },
+    {
+      "company": "Genmab",
+      "group": "biotech",
+      "nct_id": "NCT07166094",
+      "title": "Study to Assess the Efficacy and Safety of Rina-S Compared to Treatment of Investigator's Choice in Participants With Endometrial Cancer",
+      "sponsor": "Genmab",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Endometrial Cancer",
+      "start_date": "2025-11-28",
+      "primary_completion_date": "2029-08",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-10",
+      "last_update_posted": "2026-11-03",
+      "enrollment": 660
+    },
+    {
+      "company": "Genmab",
+      "group": "biotech",
+      "nct_id": "NCT04628494",
+      "title": "A Phase 3 Trial of Epcoritamab vs Investigator's Choice Chemotherapy in Relapsed/Refractory (R/R) Diffuse Large B-cell Lymphoma (DLBCL)",
+      "sponsor": "Genmab",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Diffuse Large B-cell Lymphoma",
+      "start_date": "2021-01-13",
+      "primary_completion_date": "2025-10-13",
+      "primary_completion_type": "ACTUAL",
+      "status_verified_date": "2026-10",
+      "last_update_posted": "2026-11-03",
+      "enrollment": 483
+    },
+    {
+      "company": "Genmab",
+      "group": "biotech",
+      "nct_id": "NCT03625037",
+      "title": "First-in-Human (FIH) Trial in Patients With Relapsed, Progressive or Refractory B-Cell Lymphoma",
+      "sponsor": "Genmab",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "DLBCL",
+      "start_date": "2018-06-26",
+      "primary_completion_date": "2029-01",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-10",
+      "last_update_posted": "2026-11-04",
+      "enrollment": 666
+    },
+    {
+      "company": "Genmab",
+      "group": "biotech",
+      "nct_id": "NCT06508658",
+      "title": "A Study of Subcutaneously Injected Epcoritamab Plus Oral Lenalidomide Tablets Compared to Intravenously (IV) Infused Rituximab Plus IV Infused Gemcitabine and IV Infused Oxaliplatin in Adult Participants With Relapsed or Refractory Diffuse Large B-Cell Lymphoma",
+      "sponsor": "Genmab",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Diffuse Large B-Cell Lymphoma",
+      "start_date": "2024-08-13",
+      "primary_completion_date": "2028-03",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-04",
+      "last_update_posted": "2026-04-08",
+      "enrollment": 379
+    },
+    {
+      "company": "Genmab",
+      "group": "biotech",
+      "nct_id": "NCT04623541",
+      "title": "Safety and Efficacy Study of Epcoritamab in Subjects With Relapsed/Refractory Chronic Lymphocytic Leukemia and Richter's Syndrome",
+      "sponsor": "Genmab",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Relapsed/Refractory Chronic Lymphocytic Leukemia",
+      "start_date": "2020-11-25",
+      "primary_completion_date": "2027-12",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-10",
+      "last_update_posted": "2026-11-04",
+      "enrollment": 194
+    },
+    {
+      "company": "Genmab",
+      "group": "biotech",
+      "nct_id": "NCT06635824",
+      "title": "Trial to Evaluate Acasunlimab and Pembrolizumab Combination Superiority Over Standard of Care Docetaxel in Non-Small Cell Lung Cancer (ABBIL1TY NSCLC-06)",
+      "sponsor": "Genmab",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "PD-L1-positive, Locally Advanced (Unresectable Stage IIIB/C) or Metastatic NSCLC",
+      "start_date": "2024-11-25",
+      "primary_completion_date": "2027-07-30",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-11-03",
+      "enrollment": 191
+    },
+    {
+      "company": "Genmab",
+      "group": "biotech",
+      "nct_id": "NCT05206357",
+      "title": "Study of the Adverse Events and Change in Disease State of Pediatric Participants (and Young Adults Between the Ages of 18-25) With Relapsed/Refractory Aggressive Mature B-cell Neoplasms Receiving Subcutaneous (SC) Injections of Epcoritamab",
+      "sponsor": "Genmab",
+      "phases": [
+        "PHASE1"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Non-hodgkin Lymphoma",
+      "start_date": "2022-10-04",
+      "primary_completion_date": "2028-11",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-09-11",
+      "enrollment": 17
+    },
+    {
+      "company": "Pharming",
+      "group": "biotech",
+      "nct_id": "NCT05650229",
+      "title": "Efficacy of KL1333 in Adult Patients With Primary Mitochondrial Disease",
+      "sponsor": "Pharming Technologies B.V.",
+      "phases": [
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Primary Mitochondrial Disease",
+      "start_date": "2022-12-13",
+      "primary_completion_date": "2027-10",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-06",
+      "last_update_posted": "2026-06-26",
+      "enrollment": 180
+    },
+    {
+      "company": "Pharming",
+      "group": "biotech",
+      "nct_id": "NCT05438407",
+      "title": "Pediatric Patients Aged 4 to 11 Years With APDS",
+      "sponsor": "Pharming Technologies B.V.",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "APDS",
+      "start_date": "2023-02-01",
+      "primary_completion_date": "2026-11-30",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-05",
+      "last_update_posted": "2026-05-06",
+      "enrollment": 15
+    },
+    {
+      "company": "Pharming",
+      "group": "biotech",
+      "nct_id": "NCT06990529",
+      "title": "Long-term Safety and Efficacy of Leniolisib in PIDs With Immune Dysregulation",
+      "sponsor": "Pharming Technologies B.V.",
+      "phases": [
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "PIDs Linked to PI3K",
+      "start_date": "2025-04-29",
+      "primary_completion_date": "2029-08-12",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-09-16",
+      "enrollment": 12
+    },
+    {
+      "company": "Pharming",
+      "group": "biotech",
+      "nct_id": "NCT05693129",
+      "title": "Pediatric Patients Aged 1 to 6 Years With APDS",
+      "sponsor": "Pharming Technologies B.V.",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "APDS",
+      "start_date": "2023-08-30",
+      "primary_completion_date": "2028-07-09",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-06",
+      "last_update_posted": "2026-06-15",
+      "enrollment": 16
+    },
+    {
+      "company": "Pharming",
+      "group": "biotech",
+      "nct_id": "NCT07514338",
+      "title": "Open Label Extension to Assess Long Term Safety and Efficacy of KL1333 in Patients With Primary Mitochondrial Disease",
+      "sponsor": "Pharming Technologies B.V.",
+      "phases": [
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Mitochondrial Diseases",
+      "start_date": "2026-06-12",
+      "primary_completion_date": "2029-03-31",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-07",
+      "last_update_posted": "2026-09-16",
+      "enrollment": 140
+    },
+    {
+      "company": "Ascendis",
+      "group": "biotech",
+      "nct_id": "NCT07917143",
+      "title": "A Clinical Trial to Evaluate Efficacy and Safety of Navepegritide Versus Placebo in Children and Adolescents With Hypochondroplasia",
+      "sponsor": "Ascendis Pharma A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "NOT_YET_RECRUITING",
+      "condition": "Hypochondroplasia",
+      "start_date": "2026-11",
+      "primary_completion_date": "2028-10",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-10",
+      "last_update_posted": "2026-11-04",
+      "enrollment": 81
+    },
+    {
+      "company": "Ascendis",
+      "group": "biotech",
+      "nct_id": "NCT05690386",
+      "title": "A Trial to Investigate Different Doses of Lonapegsomatropin Compared to Somatropin in Individuals With Turner Syndrome",
+      "sponsor": "Ascendis Pharma Endocrinology Division A/S",
+      "phases": [
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Turner Syndrome",
+      "start_date": "2023-02-15",
+      "primary_completion_date": "2024-10-18",
+      "primary_completion_type": "ACTUAL",
+      "status_verified_date": "2026-05",
+      "last_update_posted": "2026-05-13",
+      "enrollment": 48
+    },
+    {
+      "company": "Ascendis",
+      "group": "biotech",
+      "nct_id": "NCT05929807",
+      "title": "A Clinical Trial to Investigate Long-term Safety, Tolerability, and Efficacy of Weekly Subcutaneous Doses With TransCon CNP in Children and Adolescents With Achondroplasia",
+      "sponsor": "Ascendis Pharma Growth Disorders A/S",
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ENROLLING_BY_INVITATION",
+      "condition": "Achondroplasia",
+      "start_date": "2023-06-21",
+      "primary_completion_date": "2039-01",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-08",
+      "last_update_posted": "2026-08-17",
+      "enrollment": 140
+    },
+    {
+      "company": "Ascendis",
+      "group": "biotech",
+      "nct_id": "NCT06079398",
+      "title": "A Clinical Trial to Evaluate Efficacy and Safety of TransCon CNP Compared With Placebo in Infants (0 to <2 Years of Age) With Achondroplasia",
+      "sponsor": "Ascendis Pharma A/S",
+      "phases": [
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Achondroplasia",
+      "start_date": "2024-01-23",
+      "primary_completion_date": "2027-12",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-04",
+      "last_update_posted": "2026-04-08",
+      "enrollment": 72
+    },
+    {
+      "company": "Ascendis",
+      "group": "biotech",
+      "nct_id": "NCT05081609",
+      "title": "A Study to Investigate Safety and Tolerability of TransCon IL-2 β/γ Alone or in Combination With Pembrolizumab and/or TransCon TLR7/8 Agonist or Other Anticancer Therapies in Adult Participants With Locally Advanced or Metastatic Solid Tumor Malignancies",
+      "sponsor": "Ascendis Pharma Oncology Division A/S",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Advanced Solid Tumor",
+      "start_date": "2022-01-11",
+      "primary_completion_date": "2027-08",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-10",
+      "last_update_posted": "2026-10-13",
+      "enrollment": 320
+    },
+    {
+      "company": "Ascendis",
+      "group": "biotech",
+      "nct_id": "NCT06732895",
+      "title": "A Clinical Trial to Evaluate Efficacy and Safety of Navepegritide in Adolescents (12 - 18 Years of Age) With Achondroplasia.",
+      "sponsor": "Ascendis Pharma A/S",
+      "phases": [
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Achondroplasia",
+      "start_date": "2024-12-10",
+      "primary_completion_date": "2027-09",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-10",
+      "last_update_posted": "2026-10-13",
+      "enrollment": 25
+    },
+    {
+      "company": "Ascendis",
+      "group": "biotech",
+      "nct_id": "NCT07264634",
+      "title": "A Study to Assess the Amount of Palopegteriparatide in Breast Milk of Lactating Females Requiring YORVIPATH® (Palopegteriparatide)",
+      "sponsor": "Ascendis Pharma A/S",
+      "phases": [],
+      "study_type": "OBSERVATIONAL",
+      "status": "RECRUITING",
+      "condition": "Hypoparathyroidism",
+      "start_date": "2026-03-19",
+      "primary_completion_date": "2027-08",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-08",
+      "last_update_posted": "2026-08-07",
+      "enrollment": 10
+    },
+    {
+      "company": "Ascendis",
+      "group": "biotech",
+      "nct_id": "NCT07706764",
+      "title": "A Study to Test the Effects and Safety of Palopegteriparatide in Adolescents With Long-term Hypoparathyroidism",
+      "sponsor": "Ascendis Pharma A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Hypoparathyroidism",
+      "start_date": "2026-04-22",
+      "primary_completion_date": "2027-08",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-07",
+      "last_update_posted": "2026-07-28",
+      "enrollment": 12
+    },
+    {
+      "company": "Ascendis",
+      "group": "biotech",
+      "nct_id": "NCT07345494",
+      "title": "A Global Pregnancy Registry to Assess Maternal, Fetal, and Infant Outcomes Following Exposure to YORVIPATH® (Palopegteriparatide) During Pregnancy and Breastfeeding",
+      "sponsor": "Ascendis Pharma A/S",
+      "phases": [],
+      "study_type": "OBSERVATIONAL",
+      "status": "RECRUITING",
+      "condition": "Hypoparathyroidism",
+      "start_date": "2026-02-18",
+      "primary_completion_date": "2036-01",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-02",
+      "last_update_posted": "2026-03-02",
+      "enrollment": 50
+    },
+    {
+      "company": "Ascendis",
+      "group": "biotech",
+      "nct_id": "NCT07924059",
+      "title": "Clinical Trial Evaluating the Efficacy and Safety of Navepegritide and Lonapegsomatropin in Achondroplasia",
+      "sponsor": "Ascendis Pharma A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "NOT_YET_RECRUITING",
+      "condition": "Achondroplasia",
+      "start_date": "2026-11",
+      "primary_completion_date": "2028-09",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-11",
+      "last_update_posted": "2026-11-12",
+      "enrollment": 144
+    },
+    {
+      "company": "Ascendis",
+      "group": "biotech",
+      "nct_id": "NCT07081997",
+      "title": "A Phase 3 Randomized Clinical Trial to Investigate the Safety and Efficacy of Palopegteriparatide at Doses Greater Than 30 μg/Day in Adult Participants With Hypoparathyroidism",
+      "sponsor": "Ascendis Pharma Bone Diseases A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Hypoparathyroidism",
+      "start_date": "2026-05-07",
+      "primary_completion_date": "2027-06",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-11",
+      "last_update_posted": "2026-11-05",
+      "enrollment": 36
+    },
+    {
+      "company": "Ascendis",
+      "group": "biotech",
+      "nct_id": "NCT05820672",
+      "title": "A US Non-interventional, Effectiveness and Safety Study of Patients Treated With SKYTROFA",
+      "sponsor": "Ascendis Pharma Endocrinology Division A/S",
+      "phases": [],
+      "study_type": "OBSERVATIONAL",
+      "status": "RECRUITING",
+      "condition": "Growth Hormone Deficiency",
+      "start_date": "2023-03-20",
+      "primary_completion_date": "2033-03",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-04",
+      "last_update_posted": "2026-04-21",
+      "enrollment": 900
+    },
+    {
+      "company": "Ascendis",
+      "group": "biotech",
+      "nct_id": "NCT06433557",
+      "title": "A Phase 2 Clinical Trial to Evaluate Efficacy, Safety, and Tolerability of Navepegritide in Combination With Lonapegsomatropin in Children With Achondroplasia",
+      "sponsor": "Ascendis Pharma Growth Disorders A/S",
+      "phases": [
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Achondroplasia",
+      "start_date": "2024-07-26",
+      "primary_completion_date": "2025-11-14",
+      "primary_completion_type": "ACTUAL",
+      "status_verified_date": "2026-02",
+      "last_update_posted": "2026-02-18",
+      "enrollment": 22
+    },
+    {
+      "company": "Ascendis",
+      "group": "biotech",
+      "nct_id": "NCT05775523",
+      "title": "A Post-Authorisation Safety Study (PASS) of Patients Treated With Lonapegsomatropin",
+      "sponsor": "Ascendis Pharma Endocrinology Division A/S",
+      "phases": [],
+      "study_type": "OBSERVATIONAL",
+      "status": "RECRUITING",
+      "condition": "Growth Hormone Deficiency",
+      "start_date": "2023-03-20",
+      "primary_completion_date": "2033-03",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-02",
+      "last_update_posted": "2026-02-04",
+      "enrollment": 500
+    },
+    {
+      "company": "Ascendis",
+      "group": "biotech",
+      "nct_id": "NCT07221851",
+      "title": "Trial Investigating the Efficacy and Safety of Weekly Lonapegsomatropin Compared to Daily Somatropin in Children and Adolescents With Short Stature or Growth Failure Due to Growth Hormone Sufficient Disorders",
+      "sponsor": "Ascendis Pharma A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Turner Syndrome",
+      "start_date": "2025-12-12",
+      "primary_completion_date": "2028-02",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-11",
+      "last_update_posted": "2026-11-05",
+      "enrollment": 186
+    },
+    {
+      "company": "argenx",
+      "group": "biotech",
+      "nct_id": "NCT05907096",
+      "title": "ARGX-117 in Deceased Donor Kidney Transplant Recipients at Risk for Delayed Graft Function",
+      "sponsor": "argenx",
+      "phases": [
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Delayed Graft Function",
+      "start_date": "2024-02-17",
+      "primary_completion_date": "2025-10-16",
+      "primary_completion_type": "ACTUAL",
+      "status_verified_date": "2026-10",
+      "last_update_posted": "2026-10-14",
+      "enrollment": 103
+    },
+    {
+      "company": "argenx",
+      "group": "biotech",
+      "nct_id": "NCT07673601",
+      "title": "A Study to Assess the Absolute Bioavailability and How Adimanebart SC Moves Through the Body in Healthy Adult Participants",
+      "sponsor": "argenx",
+      "phases": [
+        "PHASE1"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Healthy Volunteers (HV)",
+      "start_date": "2026-06-12",
+      "primary_completion_date": "2026-12",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-06",
+      "last_update_posted": "2026-06-29",
+      "enrollment": 52
+    },
+    {
+      "company": "argenx",
+      "group": "biotech",
+      "nct_id": "NCT06742190",
+      "title": "A Study to Assess the Efficacy and Safety of Empasiprubart Versus IVIg in Adults With Multifocal Motor Neuropathy",
+      "sponsor": "argenx",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Multifocal Motor Neuropathy (MMN)",
+      "start_date": "2024-12-18",
+      "primary_completion_date": "2026-09",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-04",
+      "last_update_posted": "2026-09-22",
+      "enrollment": 154
+    },
+    {
+      "company": "argenx",
+      "group": "biotech",
+      "nct_id": "NCT06558279",
+      "title": "A Study to Assess Efficacy and Safety of Efgartigimod PH20 SC in Adults With Ocular Myasthenia Gravis",
+      "sponsor": "argenx",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Myasthenia Gravis, Ocular",
+      "start_date": "2024-09-18",
+      "primary_completion_date": "2026-01-12",
+      "primary_completion_type": "ACTUAL",
+      "status_verified_date": "2026-07",
+      "last_update_posted": "2026-07-02",
+      "enrollment": 141
+    },
+    {
+      "company": "argenx",
+      "group": "biotech",
+      "nct_id": "NCT07091630",
+      "title": "A Study to Assess the Efficacy and Safety of Empasiprubart in Adults With CIDP",
+      "sponsor": "argenx",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Chronic Inflammatory Demyelinating Polyneuropathy",
+      "start_date": "2025-09-16",
+      "primary_completion_date": "2027-10-07",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-11-16",
+      "enrollment": 160
+    },
+    {
+      "company": "argenx",
+      "group": "biotech",
+      "nct_id": "NCT06298552",
+      "title": "A Phase 3 Study to Evaluate the Efficacy and Safety of Efgartigimod IV in Patients With Acetylcholine Receptor Binding Antibody Seronegative Generalized Myasthenia Gravis",
+      "sponsor": "argenx",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Generalized Myasthenia Gravis",
+      "start_date": "2024-04-16",
+      "primary_completion_date": "2025-06-30",
+      "primary_completion_type": "ACTUAL",
+      "status_verified_date": "2025-11",
+      "last_update_posted": "2026-08-10",
+      "enrollment": 119
+    },
+    {
+      "company": "argenx",
+      "group": "biotech",
+      "nct_id": "NCT06299748",
+      "title": "A Worldwide Pregnancy Safety Study to Assess Maternal, Fetal, and Infant Outcomes Following Exposure to Efgartigimod During Pregnancy and/or Breastfeeding.",
+      "sponsor": "argenx",
+      "phases": [],
+      "study_type": "OBSERVATIONAL",
+      "status": "RECRUITING",
+      "condition": "Myasthenia Gravis",
+      "start_date": "2023-11-30",
+      "primary_completion_date": "2033-01",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-02",
+      "last_update_posted": "2026-02-17",
+      "enrollment": 279
+    },
+    {
+      "company": "argenx",
+      "group": "biotech",
+      "nct_id": "NCT05405361",
+      "title": "A Clinical Trial to Investigate the Long-term Safety and Tolerability, Efficacy, Pharmacodynamics, Pharmacokinetics, and Immunogenicity of ARGX-117 in Adults With Multifocal Motor Neuropathy",
+      "sponsor": "argenx",
+      "phases": [
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Multifocal Motor Neuropathy (MMN)",
+      "start_date": "2023-01-18",
+      "primary_completion_date": "2029-09-30",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-03",
+      "last_update_posted": "2026-03-11",
+      "enrollment": 51
+    },
+    {
+      "company": "argenx",
+      "group": "biotech",
+      "nct_id": "NCT07773727",
+      "title": "A Study to Evaluate the Effect of ARGX-121 on the Change in Proteinuria in Adult Participants With IgAN",
+      "sponsor": "argenx",
+      "phases": [
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Immunoglobulin A Nephropathy (IgAN)",
+      "start_date": "2026-11-05",
+      "primary_completion_date": "2029-10-29",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-10",
+      "last_update_posted": "2026-10-27",
+      "enrollment": 120
+    },
+    {
+      "company": "argenx",
+      "group": "biotech",
+      "nct_id": "NCT04280718",
+      "title": "A Study to Assess the Long-term Safety and Efficacy of a Subcutaneous Formulation of Efgartigimod in Adults With Chronic Inflammatory Demyelinating Polyneuropathy (CIDP, an Autoimmune Disorder That Affects the Peripheral Nerves)",
+      "sponsor": "argenx",
+      "phases": [
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Chronic Inflammatory Demyelinating Polyneuropathy (CIDP)",
+      "start_date": "2020-09-18",
+      "primary_completion_date": "2027-04-30",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-11",
+      "last_update_posted": "2026-11-04",
+      "enrollment": 229
+    },
+    {
+      "company": "argenx",
+      "group": "biotech",
+      "nct_id": "NCT06920004",
+      "title": "A Study to Assess Efficacy and Safety of Empasiprubart Versus IVIg in Adults With CIDP",
+      "sponsor": "argenx",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Chronic Inflammatory Demyelinating Polyneuropathy",
+      "start_date": "2025-08-22",
+      "primary_completion_date": "2027-09",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-11-16",
+      "enrollment": 218
+    },
+    {
+      "company": "argenx",
+      "group": "biotech",
+      "nct_id": "NCT06909214",
+      "title": "A Study to Evaluate the Clinical Outcomes of Efgartigimod PH20 SC in Adults With New-onset Generalized Myasthenia Gravis (gMG)",
+      "sponsor": "argenx",
+      "phases": [
+        "PHASE4"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "New Onset Generalized Myasthenia Gravis (gMG)",
+      "start_date": "2025-04-17",
+      "primary_completion_date": "2026-08",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-03",
+      "last_update_posted": "2026-03-10",
+      "enrollment": 30
+    },
+    {
+      "company": "argenx",
+      "group": "biotech",
+      "nct_id": "NCT07284420",
+      "title": "ADAPT Forward 1 - ISA1 - a Study to Evaluate Empasiprubart IV as add-on Therapy to Efgartigimod IV in Participants With AChR-Ab Seropositive Generalized Myasthenia Gravis With a Partial Clinical Response to Efgartigimod",
+      "sponsor": "argenx",
+      "phases": [
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "AChR-Ab Seropositive Generalized Myasthenia Gravis",
+      "start_date": "2025-12-19",
+      "primary_completion_date": "2028-03-07",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-09-24",
+      "enrollment": 70
+    },
+    {
+      "company": "argenx",
+      "group": "biotech",
+      "nct_id": "NCT07610564",
+      "title": "A Study to Assess the Effect of Empasiprubart on Nerve Morphology by Ultrasound in Adults With Multifocal Motor Neuropathy",
+      "sponsor": "argenx",
+      "phases": [
+        "PHASE1"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Multifocal Motor Neuropathy (MMN)",
+      "start_date": "2026-07-27",
+      "primary_completion_date": "2028-02-01",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-11-16",
+      "enrollment": 60
+    },
+    {
+      "company": "argenx",
+      "group": "biotech",
+      "nct_id": "NCT06392386",
+      "title": "A Study of Efgartigimod PH20 SC in Children Between 2 and Less Than 18 Years of Age With Generalized Myasthenia Gravis",
+      "sponsor": "argenx",
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Generalized Myasthenia Gravis",
+      "start_date": "2024-06-28",
+      "primary_completion_date": "2027-09",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-09-28",
+      "enrollment": 12
+    },
+    {
+      "company": "argenx",
+      "group": "biotech",
+      "nct_id": "NCT07583641",
+      "title": "A Study to Learn About How Well the Medicine Efgartigimod Works to Treat Autoimmune Encephalitis In Children 12 Years or Older and Adults",
+      "sponsor": "argenx",
+      "phases": [
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "NOT_YET_RECRUITING",
+      "condition": "Autoimmune Encephalitis (AE)",
+      "start_date": "2027-04-01",
+      "primary_completion_date": "2030-07",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-05",
+      "last_update_posted": "2026-09-22",
+      "enrollment": 170
+    },
+    {
+      "company": "argenx",
+      "group": "biotech",
+      "nct_id": "NCT07377396",
+      "title": "A Study to Assess the Safety of ARGX-124 in Healthy Volunteers",
+      "sponsor": "argenx",
+      "phases": [
+        "PHASE1"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Healthy Volunteers",
+      "start_date": "2026-01-26",
+      "primary_completion_date": "2026-12-31",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-03",
+      "last_update_posted": "2026-03-06",
+      "enrollment": 104
+    },
+    {
+      "company": "argenx",
+      "group": "biotech",
+      "nct_id": "NCT05979441",
+      "title": "A Study to Assess the Long-term Safety and Efficacy of a Subcutaneous Formulation of Efgartigimod in Adults With Active Idiopathic Inflammatory Myopathy",
+      "sponsor": "argenx",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ENROLLING_BY_INVITATION",
+      "condition": "Myositis",
+      "start_date": "2023-09-12",
+      "primary_completion_date": "2028-09",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-07",
+      "last_update_posted": "2026-10-16",
+      "enrollment": 240
+    },
+    {
+      "company": "argenx",
+      "group": "biotech",
+      "nct_id": "NCT05374590",
+      "title": "Evaluating Long-term Safety of Efgartigimod Administered Intravenously and Efgartigimod PH20 Administered Subcutaneously in Children With Generalized Myasthenia Gravis",
+      "sponsor": "argenx",
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ENROLLING_BY_INVITATION",
+      "condition": "Generalized Myasthenia Gravis",
+      "start_date": "2022-08-18",
+      "primary_completion_date": "2029-09",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-01",
+      "last_update_posted": "2026-11-03",
+      "enrollment": 12
+    },
+    {
+      "company": "argenx",
+      "group": "biotech",
+      "nct_id": "NCT06078553",
+      "title": "A Natural History Study in Participants With Congenital Myasthenic Syndromes (CMS) Due to Mutations in DOK7, MUSK, AGRN, or LRP4",
+      "sponsor": "argenx",
+      "phases": [],
+      "study_type": "OBSERVATIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Congenital Myasthenic Syndrome",
+      "start_date": "2024-02-13",
+      "primary_completion_date": "2027-09",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-11",
+      "last_update_posted": "2026-11-05",
+      "enrollment": 152
+    },
+    {
+      "company": "argenx",
+      "group": "biotech",
+      "nct_id": "NCT06503731",
+      "title": "A Study to Evaluate the Safety and Tolerability of Efgartigimod PH20 SC Given by Prefilled Syringe in Kidney Transplant Recipients With Antibody-Mediated Rejection (AMR)",
+      "sponsor": "argenx",
+      "phases": [
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Antibody-mediated Rejection",
+      "start_date": "2024-08-30",
+      "primary_completion_date": "2027-11",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-07",
+      "last_update_posted": "2026-07-02",
+      "enrollment": 33
+    },
+    {
+      "company": "argenx",
+      "group": "biotech",
+      "nct_id": "NCT07746089",
+      "title": "A Study to Assess Efficacy and Safety of Adimanebart in Adult and Pediatric Participants With DOK7-,MUSK-, AGRN-, or LRP4- Congenital Myasthenic Syndromes (CMS)",
+      "sponsor": "argenx",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "NOT_YET_RECRUITING",
+      "condition": "Congenital Myasthenic Syndrome",
+      "start_date": "2026-09",
+      "primary_completion_date": "2030-10",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-10",
+      "last_update_posted": "2026-10-19",
+      "enrollment": 105
+    },
+    {
+      "company": "argenx",
+      "group": "biotech",
+      "nct_id": "NCT07294170",
+      "title": "ADAPT Forward - Master Protocol of a Platform Study to Evaluate the Safety and Efficacy of Multiple Regimens in Participants With Myasthenia Gravis",
+      "sponsor": "argenx",
+      "phases": [],
+      "study_type": "OBSERVATIONAL",
+      "status": "RECRUITING",
+      "condition": "Myasthenia Gravis",
+      "start_date": "2025-12-19",
+      "primary_completion_date": "2028-03-07",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-10-26",
+      "enrollment": 70
+    },
+    {
+      "company": "argenx",
+      "group": "biotech",
+      "nct_id": "NCT06684847",
+      "title": "A Study of the Efficacy and Safety of Efgartigimod in Patients With Primary Sjögren's Syndrome",
+      "sponsor": "argenx",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Primary Sjogrens Disease",
+      "start_date": "2025-01-15",
+      "primary_completion_date": "2027-07",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-04",
+      "last_update_posted": "2026-04-16",
+      "enrollment": 631
+    },
+    {
+      "company": "argenx",
+      "group": "biotech",
+      "nct_id": "NCT06655155",
+      "title": "A Study to Assess the Efficacy and Safety of Efgartigimod PH20 SC in Adults With Systemic Sclerosis",
+      "sponsor": "argenx",
+      "phases": [
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Systemic Sclerosis (SSc)",
+      "start_date": "2024-11-11",
+      "primary_completion_date": "2027-03",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-10",
+      "last_update_posted": "2026-10-16",
+      "enrollment": 87
+    },
+    {
+      "company": "argenx",
+      "group": "biotech",
+      "nct_id": "NCT07570316",
+      "title": "A Study to Assess Efficacy and Safety of Efgartigimod PH20 SC PFS in Adult Participants With Graves' Disease",
+      "sponsor": "argenx",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Graves' Disease",
+      "start_date": "2026-06-10",
+      "primary_completion_date": "2028-06",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-11-03",
+      "enrollment": 230
+    },
+    {
+      "company": "argenx",
+      "group": "biotech",
+      "nct_id": "NCT07194850",
+      "title": "A Study of Efgartigimod IV in Participants From 12 Years to Less Than 18 Years of Age With Chronic Immune Thrombocytopenia (ITP)",
+      "sponsor": "argenx",
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Immune Thrombocytopenia (ITP)",
+      "start_date": "2025-10-20",
+      "primary_completion_date": "2028-10",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-11-16",
+      "enrollment": 24
+    },
+    {
+      "company": "argenx",
+      "group": "biotech",
+      "nct_id": "NCT07596849",
+      "title": "A Study to Assess Efficacy and Safety of Efgartigimod PH20 SC PFS in Adult Participants With Graves' Disease.",
+      "sponsor": "argenx",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Graves Disease",
+      "start_date": "2026-06-10",
+      "primary_completion_date": "2028-06",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-11-03",
+      "enrollment": 230
+    },
+    {
+      "company": "argenx",
+      "group": "biotech",
+      "nct_id": "NCT07595653",
+      "title": "A Study to Evaluate the Impact of Efgartigimod on Overall Disease Experience of People Suffering From Generalized Myasthenia Gravis (gMG) in Italy",
+      "sponsor": "argenx",
+      "phases": [],
+      "study_type": "OBSERVATIONAL",
+      "status": "RECRUITING",
+      "condition": "Generalized Myasthenia Gravis (gMG)",
+      "start_date": "2026-02-25",
+      "primary_completion_date": "2027-11",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-05",
+      "last_update_posted": "2026-05-19",
+      "enrollment": 100
+    },
+    {
+      "company": "argenx",
+      "group": "biotech",
+      "nct_id": "NCT06284954",
+      "title": "A Study to Evaluate Safety and Efficacy of Empasiprubart in Adults With Dermatomyositis",
+      "sponsor": "argenx",
+      "phases": [
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Dermatomyositis",
+      "start_date": "2024-08-20",
+      "primary_completion_date": "2026-11",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-11",
+      "last_update_posted": "2026-11-04",
+      "enrollment": 3
+    },
+    {
+      "company": "argenx",
+      "group": "biotech",
+      "nct_id": "NCT06298565",
+      "title": "A Non-interventional, Post-authorisation Safety Study of Patients Treated With Efgartigimod Alfa",
+      "sponsor": "argenx",
+      "phases": [],
+      "study_type": "OBSERVATIONAL",
+      "status": "RECRUITING",
+      "condition": "Myasthenia Gravis",
+      "start_date": "2024-11-04",
+      "primary_completion_date": "2034-06",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-02",
+      "last_update_posted": "2026-11-16",
+      "enrollment": 680
+    },
+    {
+      "company": "argenx",
+      "group": "biotech",
+      "nct_id": "NCT07264426",
+      "title": "Real-World Efgartigimod Effectiveness in CIDP: A Prospective Study",
+      "sponsor": "argenx",
+      "phases": [],
+      "study_type": "OBSERVATIONAL",
+      "status": "RECRUITING",
+      "condition": "Chronic Inflammatory Demyelinating Polyradiculoneuropathy",
+      "start_date": "2025-08-11",
+      "primary_completion_date": "2029-10",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-10",
+      "last_update_posted": "2026-11-03",
+      "enrollment": 200
+    },
+    {
+      "company": "argenx",
+      "group": "biotech",
+      "nct_id": "NCT07612020",
+      "title": "A Study to Assess the Absolute Bioavailability of Empasiprubart SC Administered With an Autoinjector and the Pharmacokinetic Noninferiority of Empasiprubart SC Versus Intravenous (IV) in Healthy Adult Participants",
+      "sponsor": "argenx",
+      "phases": [
+        "PHASE1"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Healthy Volunteers",
+      "start_date": "2026-03-16",
+      "primary_completion_date": "2027-03",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-05",
+      "last_update_posted": "2026-05-28",
+      "enrollment": 130
+    },
+    {
+      "company": "argenx",
+      "group": "biotech",
+      "nct_id": "NCT07821762",
+      "title": "A Study of Empasiprubart as Add-On Therapy to IVIg in Adult Participants With Guillain-Barré Syndrome",
+      "sponsor": "argenx",
+      "phases": [
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "NOT_YET_RECRUITING",
+      "condition": "Guillain-Barré Syndrome (GBS)",
+      "start_date": "2026-12",
+      "primary_completion_date": "2028-01",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-10",
+      "last_update_posted": "2026-10-28",
+      "enrollment": 63
+    },
+    {
+      "company": "argenx",
+      "group": "biotech",
+      "nct_id": "NCT06544499",
+      "title": "A Study to Assess the Efficacy and Safety of Efgartigimod IV in Adult Participants With Primary Immune Thrombocytopenia",
+      "sponsor": "argenx",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Primary Immune Thrombocytopenia (ITP)",
+      "start_date": "2024-10-18",
+      "primary_completion_date": "2028-06",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-04",
+      "last_update_posted": "2026-05-01",
+      "enrollment": 69
+    },
+    {
+      "company": "argenx",
+      "group": "biotech",
+      "nct_id": "NCT04833894",
+      "title": "Evaluating the Pharmacokinetics, Pharmacodynamics, and Safety of Efgartigimod Administered Intravenously in Children With Generalized Myasthenia Gravis",
+      "sponsor": "argenx",
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Generalized Myasthenia Gravis",
+      "start_date": "2021-10-26",
+      "primary_completion_date": "2027-03",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-02",
+      "last_update_posted": "2026-10-29",
+      "enrollment": 15
+    },
+    {
+      "company": "argenx",
+      "group": "biotech",
+      "nct_id": "NCT04812925",
+      "title": "A Phase 3 Study to Evaluate the Safety and Efficacy of Efgartigimod PH20 Subcutaneous in Adult Patients With Primary Immune Thrombocytopenia",
+      "sponsor": "argenx",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Primary Immune Thrombocytopenia",
+      "start_date": "2021-11-17",
+      "primary_completion_date": "2027-10",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-10-19",
+      "enrollment": 173
+    },
+    {
+      "company": "argenx",
+      "group": "biotech",
+      "nct_id": "NCT06436742",
+      "title": "A Phase 1b Study to Investigate Safety and Tolerability of ARGX-119 in Adult Participants With DOK7-Congenital Myasthenic Syndromes (CMS)",
+      "sponsor": "argenx",
+      "phases": [
+        "PHASE1"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Congenital Myasthenic Syndrome",
+      "start_date": "2024-09-24",
+      "primary_completion_date": "2027-08-24",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-07",
+      "last_update_posted": "2026-07-24",
+      "enrollment": 15
+    },
+    {
+      "company": "argenx",
+      "group": "biotech",
+      "nct_id": "NCT05988073",
+      "title": "A Prospective Longitudinal Study in Adults With Multifocal Motor Neuropathy",
+      "sponsor": "argenx",
+      "phases": [],
+      "study_type": "OBSERVATIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Multifocal Motor Neuropathy",
+      "start_date": "2023-11-29",
+      "primary_completion_date": "2028-12-31",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-03",
+      "last_update_posted": "2026-11-04",
+      "enrollment": 413
+    },
+    {
+      "company": "argenx",
+      "group": "biotech",
+      "nct_id": "NCT07760818",
+      "title": "A Study to Assess Efficacy and Safety of Efgartigimod in Adults With Sjogren's Disease-associated Sensorimotor Polyneuropathy or Sensory Polyneuropathy (SERENITY)",
+      "sponsor": "argenx",
+      "phases": [
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "NOT_YET_RECRUITING",
+      "condition": "Sjogrens Disease",
+      "start_date": "2026-08-14",
+      "primary_completion_date": "2028-07-28",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-07",
+      "last_update_posted": "2026-08-12",
+      "enrollment": 75
+    },
+    {
+      "company": "argenx",
+      "group": "biotech",
+      "nct_id": "NCT07287982",
+      "title": "A Study to Assess the Safety, Tolerability, Efficacy, Pharmacokinetics, and Immunogenicity of Intravenous Administration of ARGX-119 in Pediatric Participants Aged 5 to Less Than 18 Years With Spinal Muscular Atrophy",
+      "sponsor": "argenx",
+      "phases": [
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Spinal Muscular Atrophy (SMA)",
+      "start_date": "2025-12-19",
+      "primary_completion_date": "2029-05-28",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-11-18",
+      "enrollment": 60
+    },
+    {
+      "company": "argenx",
+      "group": "biotech",
+      "nct_id": "NCT07673627",
+      "title": "ADAPT Forward 2 - ISA2 - a Study to Evaluate the Safety, Tolerability and Efficacy of Empasiprubart IV Monotherapy in Participants With AChR-Ab Seropositive Generalized Myasthenia Gravis",
+      "sponsor": "argenx",
+      "phases": [
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "AChR-Ab Seropositive Generalized Myasthenia Gravis",
+      "start_date": "2026-07-10",
+      "primary_completion_date": "2027-10",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-11-16",
+      "enrollment": 40
+    },
+    {
+      "company": "Lundbeck",
+      "group": "biotech",
+      "nct_id": "NCT05453058",
+      "title": "Observational Study in Multiple System Atrophy",
+      "sponsor": "H. Lundbeck A/S",
+      "phases": [],
+      "study_type": "OBSERVATIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Multiple System Atrophy",
+      "start_date": "2022-06-25",
+      "primary_completion_date": "2024-03-12",
+      "primary_completion_type": "ACTUAL",
+      "status_verified_date": "2025-12",
+      "last_update_posted": "2025-12-08",
+      "enrollment": 90
+    },
+    {
+      "company": "Lundbeck",
+      "group": "biotech",
+      "nct_id": "NCT05104476",
+      "title": "A Study of Lu AF82422 in Participants With Multiple System Atrophy",
+      "sponsor": "H. Lundbeck A/S",
+      "phases": [
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Multiple System Atrophy",
+      "start_date": "2021-11-16",
+      "primary_completion_date": "2023-11-16",
+      "primary_completion_type": "ACTUAL",
+      "status_verified_date": "2026-04",
+      "last_update_posted": "2026-04-13",
+      "enrollment": 64
+    },
+    {
+      "company": "Lundbeck",
+      "group": "biotech",
+      "nct_id": "NCT06706622",
+      "title": "A Trial of Amlenetug (Lu AF82422) in Participants With Multiple System Atrophy (MSA)",
+      "sponsor": "H. Lundbeck A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Multiple System Atrophy",
+      "start_date": "2024-12-03",
+      "primary_completion_date": "2028-02-17",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-10",
+      "last_update_posted": "2026-10-14",
+      "enrollment": 401
+    },
+    {
+      "company": "Lundbeck",
+      "group": "biotech",
+      "nct_id": "NCT05897320",
+      "title": "A Study of Eptinezumab in Pediatric Participants With Episodic Migraine",
+      "sponsor": "H. Lundbeck A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Episodic Migraine",
+      "start_date": "2023-06-08",
+      "primary_completion_date": "2027-07-06",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-10",
+      "last_update_posted": "2026-10-14",
+      "enrollment": 315
+    },
+    {
+      "company": "Lundbeck",
+      "group": "biotech",
+      "nct_id": "NCT07514858",
+      "title": "A Trial Investigating Lu AF28996 in Adults With Parkinson's Disease Who Have Motor Fluctuations",
+      "sponsor": "H. Lundbeck A/S",
+      "phases": [
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Parkinson's Disease",
+      "start_date": "2026-07-28",
+      "primary_completion_date": "2028-10-03",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-11",
+      "last_update_posted": "2026-11-13",
+      "enrollment": 150
+    },
+    {
+      "company": "Lundbeck",
+      "group": "biotech",
+      "nct_id": "NCT07613710",
+      "title": "A Trial to Test the Safety and Tolerability of Lu AH69593 in Adults That Are Healthy or Have Narcolepsy",
+      "sponsor": "H. Lundbeck A/S",
+      "phases": [
+        "PHASE1"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Narcolepsy",
+      "start_date": "2025-06-13",
+      "primary_completion_date": "2027-02-09",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-08",
+      "last_update_posted": "2026-08-12",
+      "enrollment": 104
+    },
+    {
+      "company": "Lundbeck",
+      "group": "biotech",
+      "nct_id": "NCT06471829",
+      "title": "A Trial of Lu AG13909 in Adult Participants With Cushing's Disease",
+      "sponsor": "H. Lundbeck A/S",
+      "phases": [
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Cushing's Disease",
+      "start_date": "2024-06-19",
+      "primary_completion_date": "2027-08-10",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-10",
+      "last_update_posted": "2026-10-16",
+      "enrollment": 16
+    },
+    {
+      "company": "Lundbeck",
+      "group": "biotech",
+      "nct_id": "NCT07775261",
+      "title": "A Trial of Lu AH69593 in Healthy Participants",
+      "sponsor": "H. Lundbeck A/S",
+      "phases": [
+        "PHASE1"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Healthy Participants",
+      "start_date": "2026-08-27",
+      "primary_completion_date": "2026-11-04",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-10",
+      "last_update_posted": "2026-10-14",
+      "enrollment": 46
+    },
+    {
+      "company": "Lundbeck",
+      "group": "biotech",
+      "nct_id": "NCT04965675",
+      "title": "A Study With Eptinezumab in Adolescents (12-17 Years) With Chronic Migraine",
+      "sponsor": "H. Lundbeck A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Chronic Migraine in Children",
+      "start_date": "2021-06-30",
+      "primary_completion_date": "2027-03-26",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-10",
+      "last_update_posted": "2026-10-16",
+      "enrollment": 285
+    },
+    {
+      "company": "Lundbeck",
+      "group": "biotech",
+      "nct_id": "NCT06557850",
+      "title": "A Trial Investigating Lu AG22515 in Adult Participants With Moderate-to-Severe Thyroid Eye Disease",
+      "sponsor": "H. Lundbeck A/S",
+      "phases": [
+        "PHASE1"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Thyroid Eye Disease",
+      "start_date": "2024-09-19",
+      "primary_completion_date": "2026-03-17",
+      "primary_completion_type": "ACTUAL",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-09-09",
+      "enrollment": 20
+    },
+    {
+      "company": "Lundbeck",
+      "group": "biotech",
+      "nct_id": "NCT05669950",
+      "title": "A Trial of Lu AG13909 in Participants With Congenital Adrenal Hyperplasia",
+      "sponsor": "H. Lundbeck A/S",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Congenital Adrenal Hyperplasia",
+      "start_date": "2022-12-19",
+      "primary_completion_date": "2026-09-30",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-03",
+      "last_update_posted": "2026-03-09",
+      "enrollment": 42
+    },
+    {
+      "company": "Lundbeck",
+      "group": "biotech",
+      "nct_id": "NCT07513441",
+      "title": "A Trial of Lu AF28996 in Participants With Parkinson's Disease (PD)",
+      "sponsor": "H. Lundbeck A/S",
+      "phases": [
+        "PHASE1"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Parkinson Disease",
+      "start_date": "2026-05-26",
+      "primary_completion_date": "2027-05-31",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-08",
+      "last_update_posted": "2026-08-10",
+      "enrollment": 10
+    },
+    {
+      "company": "Lundbeck",
+      "group": "biotech",
+      "nct_id": "NCT07859293",
+      "title": "An Extension Trial of Asedebart in Participants With Congenital Adrenal Hyperplasia",
+      "sponsor": "H. Lundbeck A/S",
+      "phases": [
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "NOT_YET_RECRUITING",
+      "condition": "Adrenal Hyperplasia, Congenital",
+      "start_date": "2026-10-01",
+      "primary_completion_date": "2031-07-31",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-10-05",
+      "enrollment": 45
+    },
+    {
+      "company": "Lundbeck",
+      "group": "biotech",
+      "nct_id": "NCT05164172",
+      "title": "A Study With Eptinezumab in Children and Adolescents (6 to 17 Years) With Chronic or Episodic Migraine",
+      "sponsor": "H. Lundbeck A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Migraine",
+      "start_date": "2021-12-01",
+      "primary_completion_date": "2028-04-30",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-10",
+      "last_update_posted": "2026-10-14",
+      "enrollment": 600
+    },
+    {
+      "company": "Bavarian Nordic",
+      "group": "biotech",
+      "nct_id": "NCT07888088",
+      "title": "Phase 1 Trial to Evaluate Safety and Immunogenicity of MVA-BN-EBV in Healthy Young Adults",
+      "sponsor": "Bavarian Nordic",
+      "phases": [
+        "PHASE1"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "NOT_YET_RECRUITING",
+      "condition": "Epstein Barr Virus (EBV) Infection",
+      "start_date": "2026-12-15",
+      "primary_completion_date": "2027-12-31",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-10",
+      "last_update_posted": "2026-10-22",
+      "enrollment": 15
+    },
+    {
+      "company": "Bavarian Nordic",
+      "group": "biotech",
+      "nct_id": "NCT07199569",
+      "title": "Comparability Trial of the MVA-BN Vaccine Manufactured in Different Production Cells",
+      "sponsor": "Bavarian Nordic",
+      "phases": [
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Monkeypox (Mpox)",
+      "start_date": "2025-10-27",
+      "primary_completion_date": "2026-11-30",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-04",
+      "last_update_posted": "2026-04-08",
+      "enrollment": 970
+    },
+    {
+      "company": "Bavarian Nordic",
+      "group": "biotech",
+      "nct_id": "NCT06899802",
+      "title": "A Phase 2 Trial in Healthy Adult Participants of the Recombinant MVA-BN-WEV Vaccine",
+      "sponsor": "Bavarian Nordic",
+      "phases": [
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Encephalitis",
+      "start_date": "2025-03-10",
+      "primary_completion_date": "2027-02",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2025-07",
+      "last_update_posted": "2025-10-01",
+      "enrollment": 411
+    },
+    {
+      "company": "Bavarian Nordic",
+      "group": "biotech",
+      "nct_id": "NCT07003984",
+      "title": "A Safety and Immunogenicity Study of CHIKV VLP Vaccine in Children.",
+      "sponsor": "Bavarian Nordic",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Chikungunya Virus",
+      "start_date": "2025-06-05",
+      "primary_completion_date": "2028-09",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-09-30",
+      "enrollment": 720
+    },
+    {
+      "company": "Bavarian Nordic",
+      "group": "biotech",
+      "nct_id": "NCT06007183",
+      "title": "Long-term Follow-up Study to Evaluate Safety and Immunogenicity of CHIKV VLP Single or Booster Vaccination",
+      "sponsor": "Bavarian Nordic",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Chikungunya Virus Infection",
+      "start_date": "2023-08-30",
+      "primary_completion_date": "2028-02",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-08",
+      "last_update_posted": "2026-08-07",
+      "enrollment": 715
+    },
+    {
+      "company": "Bavarian Nordic",
+      "group": "biotech",
+      "nct_id": "NCT06549530",
+      "title": "Open-label, Multicenter Immunogenicity and Safety Study of MVA-BN Vaccine in Children From 2 Years to Less Than 12 Years of Age Compared to Adults for the Prevention of Smallpox, Mpox, and Related Orthopoxvirus Infections",
+      "sponsor": "Bavarian Nordic",
+      "phases": [
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Monkeypox (Mpox)",
+      "start_date": "2024-10-21",
+      "primary_completion_date": "2026-05-01",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2025-11",
+      "last_update_posted": "2025-11-24",
+      "enrollment": 460
+    },
+    {
+      "company": "Bavarian Nordic",
+      "group": "biotech",
+      "nct_id": "NCT07467707",
+      "title": "An Efficacy, Safety, and Immunogenicity Study of CHIKV VLP Vaccine for the Prevention of Chikungunya Disease in Adolescents and Adults",
+      "sponsor": "Bavarian Nordic",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Chikungunya Virus",
+      "start_date": "2026-05-26",
+      "primary_completion_date": "2030-05",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-11",
+      "last_update_posted": "2026-11-13",
+      "enrollment": 6144
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT07668414",
+      "title": "A Research Study Investigating How Well the Medicine Zenagamtide Helps People With Excess Body Weight Lose Weight Compared to Semaglutide",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Overweight",
+      "start_date": "2026-09-22",
+      "primary_completion_date": "2028-10-10",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-09-28",
+      "enrollment": 650
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT03811561",
+      "title": "A Research Study to Look at How Semaglutide Compared to Placebo Affects Diabetic Eye Disease in People With Type 2 Diabetes",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Diabetes Mellitus, Type 2",
+      "start_date": "2019-05-08",
+      "primary_completion_date": "2027-11-07",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-10",
+      "last_update_posted": "2026-10-07",
+      "enrollment": 1500
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT07253285",
+      "title": "A Research Study on How Well Cagrilintide and CagriSema Work in Children and Adolescents With Excess Body Weight",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Overweight",
+      "start_date": "2026-01-08",
+      "primary_completion_date": "2030-03-20",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-09-30",
+      "enrollment": 460
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT07301034",
+      "title": "A Research Study to Look at the Effect of Ziltivekimab on Plaque in the Blood Vessels of the Heart, Compared to Placebo, in People With a Heart Attack",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Myocardial Infarction",
+      "start_date": "2025-12-18",
+      "primary_completion_date": "2028-11-14",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-03",
+      "last_update_posted": "2026-03-11",
+      "enrollment": 332
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT07533175",
+      "title": "AMAZE 2: A Research Study Investigating How Well the Medicine NNC0487-0111 Helps People With Excess Body Weight and Type 2 Diabetes Lose Weight",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Diabetes Mellitus",
+      "start_date": "2026-04-13",
+      "primary_completion_date": "2028-08-07",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-11",
+      "last_update_posted": "2026-11-06",
+      "enrollment": 638
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT07797335",
+      "title": "AMBITION 7: A Research Study Investigating How Well Zenagamtide Lowers Blood Sugar and Body Weight Compared to Insulin Glargine in People With Type 2 Diabetes and Increased Risk of Diseases That Affect the Heart and Blood Vessels Treated With 1-3 Other Diabetes Medications",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Type 2 Diabetes",
+      "start_date": "2026-08-24",
+      "primary_completion_date": "2028-07-31",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-08",
+      "last_update_posted": "2026-09-01",
+      "enrollment": 1778
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT05685238",
+      "title": "A Research Study Looking at Long-term Treatment With Mim8 in People With Haemophilia A",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Haemophilia A",
+      "start_date": "2023-02-13",
+      "primary_completion_date": "2028-06-30",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-09-09",
+      "enrollment": 451
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT07931599",
+      "title": "A Research Study Investigating How Well Zenagamtide at Lower Dose Levels Lowers Blood Sugar and Body Weight Compared to Semaglutide at Lower Dose Levels in People With Type 2 Diabetes Treated With Metformin, Sodium-Glucose Cotransporter 2 Inhibitors (SGLT2i), or Both",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "NOT_YET_RECRUITING",
+      "condition": "Diabetes Mellitus, Type 2",
+      "start_date": "2026-11-10",
+      "primary_completion_date": "2028-07-24",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-11",
+      "last_update_posted": "2026-11-12",
+      "enrollment": 1060
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT07481630",
+      "title": "A Research Study Investigating How Well the Medicine NNC0487-0111 Helps People With Excess Body Weight and Knee Osteoarthritis Lose Weight and Reduce Pain",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Obesity",
+      "start_date": "2026-04-13",
+      "primary_completion_date": "2028-08-14",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-07",
+      "last_update_posted": "2026-07-09",
+      "enrollment": 400
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT04822181",
+      "title": "Research Study on Whether Semaglutide Works in People With Non-alcoholic Steatohepatitis (NASH)",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Non-alcoholic Steatohepatitis",
+      "start_date": "2021-04-01",
+      "primary_completion_date": "2029-04-25",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-10",
+      "last_update_posted": "2026-10-13",
+      "enrollment": 1205
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT05726227",
+      "title": "A Research Study on How Well Semaglutide Helps Children and Teenagers With Excess Body Weight Lose Weight",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Obesity",
+      "start_date": "2023-07-07",
+      "primary_completion_date": "2025-10-15",
+      "primary_completion_type": "ACTUAL",
+      "status_verified_date": "2026-10",
+      "last_update_posted": "2026-10-07",
+      "enrollment": 212
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT07011667",
+      "title": "A Research Study to Look at How Well CagriSema Helps People Living With Obesity Lose Weight and Maintain Weight Loss in the Long-term",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Obesity",
+      "start_date": "2025-06-03",
+      "primary_completion_date": "2027-03-01",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-09-30",
+      "enrollment": 609
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT07571005",
+      "title": "AMAZE 3: A Research Study Investigating How Well the Medicine NNC0487-0111 Helps People With Excess Body Weight and Obstructive Sleep Apnoea Not Treated With Positive Airway Pressure Lose Weight and Improve Sleep Apnoea",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Obesity",
+      "start_date": "2026-05-05",
+      "primary_completion_date": "2028-07-12",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-09-11",
+      "enrollment": 300
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT07567001",
+      "title": "A Research Study to Look at How Well NNC0487-0111 Works Compared to Placebo in People With Heart Failure and Obesity",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Obesity",
+      "start_date": "2026-05-11",
+      "primary_completion_date": "2029-07-23",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-08",
+      "last_update_posted": "2026-08-18",
+      "enrollment": 5610
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT06200207",
+      "title": "A Research Study Looking Into How Ziltivekimab Works Compared to Placebo in Participants With Heart Failure and Inflammation",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Heart Failure",
+      "start_date": "2024-04-01",
+      "primary_completion_date": "2026-10-01",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-10-01",
+      "enrollment": 673
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT07919405",
+      "title": "A Research Study to Investigate How Well the Medicine CagriSema Lowers High Blood Pressure in People Living With High Blood Pressure and Obesity",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "NOT_YET_RECRUITING",
+      "condition": "Hypertension",
+      "start_date": "2026-11-11",
+      "primary_completion_date": "2028-06-01",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-10",
+      "last_update_posted": "2026-11-05",
+      "enrollment": 1408
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT06118281",
+      "title": "ARTEMIS - A Research Study to Look at How Ziltivekimab Works Compared to Placebo in People With a Heart Attack",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Cardiovascular Risk",
+      "start_date": "2024-06-25",
+      "primary_completion_date": "2027-01-29",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-09-09",
+      "enrollment": 10000
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT07207811",
+      "title": "CLEOPATTRA: A Research Study to Look at the Effects of Treatment With a Medicine Called Coramitug (NNC6019-0001) in People With Heart Failure Due to Transthyretin Amyloid (ATTR) Amyloidosis",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Transthyretin Amyloid Cardiomyopathy (ATTR CM)",
+      "start_date": "2025-10-02",
+      "primary_completion_date": "2029-06-29",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-10",
+      "last_update_posted": "2026-10-21",
+      "enrollment": 1280
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT07817251",
+      "title": "Research Study on How People With Type 2 Diabetes Tolerate Switching From Semaglutide to Cagrisema",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Diabetes Mellitus, Type 2",
+      "start_date": "2026-09-16",
+      "primary_completion_date": "2027-06-09",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-09-30",
+      "enrollment": 210
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT04082429",
+      "title": "Research Study to Look at How Well the Drug Concizumab Works in Your Body if You Have Haemophilia Without Inhibitors",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Haemophilia A Without Inhibitors",
+      "start_date": "2019-11-13",
+      "primary_completion_date": "2022-07-12",
+      "primary_completion_type": "ACTUAL",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-09-16",
+      "enrollment": 156
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT04775082",
+      "title": "SCALE KIDS: Research Study to Look at How Well a New Medicine is at Lowering Weight in Children With Obesity",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Obesity",
+      "start_date": "2021-03-04",
+      "primary_completion_date": "2023-08-01",
+      "primary_completion_type": "ACTUAL",
+      "status_verified_date": "2026-10",
+      "last_update_posted": "2026-11-16",
+      "enrollment": 82
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT07220642",
+      "title": "Weight Loss in People Living With Overweight or Obesity Following Treatment With Cagrilintide",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Obesity",
+      "start_date": "2025-11-05",
+      "primary_completion_date": "2027-05-11",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-08",
+      "last_update_posted": "2026-08-06",
+      "enrollment": 300
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT07931573",
+      "title": "AMBITION 3: A Research Study Investigating How Well Zenagamtide at Higher Dose Levels Lowers Blood Sugar and Body Weight Compared to Semaglutide in People With Type 2 Diabetes Treated With Metformin, SGLT2i, or Both",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "NOT_YET_RECRUITING",
+      "condition": "Type 2 Diabetes",
+      "start_date": "2026-11-10",
+      "primary_completion_date": "2028-07-04",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-06",
+      "last_update_posted": "2026-11-12",
+      "enrollment": 1200
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT07400107",
+      "title": "AMAZE 8: A Research Study Investigating How Well the Medicine NNC0487-0111 Compared to Semaglutide Helps People With Excess Body Weight and Type 2 Diabetes Lose Weight",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Obesity",
+      "start_date": "2026-05-20",
+      "primary_completion_date": "2028-12-19",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-11",
+      "last_update_posted": "2026-11-10",
+      "enrollment": 985
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT07931495",
+      "title": "A Research Study Investigating How Well Zenagamtide Lowers Blood Sugar and Body Weight Compared to Placebo in People With Type 2 Diabetes Treated With Diet and Exercise",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "NOT_YET_RECRUITING",
+      "condition": "Diabetes Mellitus, Type 2",
+      "start_date": "2026-11-10",
+      "primary_completion_date": "2028-06-05",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-11",
+      "last_update_posted": "2026-11-12",
+      "enrollment": 200
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT07745504",
+      "title": "A Research Study to Compare Two Different Versions of Injectable Cagrilintide and Placebo in People With Excess Body Weight",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Overweight",
+      "start_date": "2026-08-04",
+      "primary_completion_date": "2027-05-18",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-09-04",
+      "enrollment": 285
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT07509307",
+      "title": "AMAZE 6: A Research Study Investigating How Well the Medicine NNC0487-0111 Helps People With Excess Body Weight and Knee Osteoarthritis Lose Weight and Reduce Pain",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Obesity",
+      "start_date": "2026-04-20",
+      "primary_completion_date": "2028-08-14",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-08",
+      "last_update_posted": "2026-08-17",
+      "enrollment": 400
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT04042402",
+      "title": "Long Term Extension Study in Patients With Primary Hyperoxaluria",
+      "sponsor": "Dicerna Pharmaceuticals, Inc., a Novo Nordisk company",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Primary Hyperoxaluria Type 1 (PH1)",
+      "start_date": "2019-07-09",
+      "primary_completion_date": "2030-04-01",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-10",
+      "last_update_posted": "2026-10-08",
+      "enrollment": 75
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT07720271",
+      "title": "AMAZE 9: A Research Study Investigating How Well Zenagamtide Tablets Help People With Excess Body Weight Lose Weight",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Overweight",
+      "start_date": "2026-08-31",
+      "primary_completion_date": "2028-06-27",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-09-28",
+      "enrollment": 950
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT07571109",
+      "title": "AMAZE 4: A Research Study Investigating How Well the Medicine NNC0487-0111 Helps People With Excess Body Weight and Obstructive Sleep Apnoea Treated With Positive Airway Pressure Lose Weight and Improve Sleep Apnoea",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Obesity",
+      "start_date": "2026-05-05",
+      "primary_completion_date": "2028-06-26",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-10",
+      "last_update_posted": "2026-10-07",
+      "enrollment": 300
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT04083781",
+      "title": "Research Study to Look at How Well the Drug Concizumab Works in Your Body if You Have Haemophilia With Inhibitors",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Haemophilia A With Inhibitors",
+      "start_date": "2019-10-21",
+      "primary_completion_date": "2021-12-27",
+      "primary_completion_type": "ACTUAL",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-09-09",
+      "enrollment": 134
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT06780449",
+      "title": "A Research Study to Look Into the Long-term Effect on Weight Loss of CagriSema in People With Obesity",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Obesity",
+      "start_date": "2025-02-10",
+      "primary_completion_date": "2028-08-28",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-01",
+      "last_update_posted": "2026-01-20",
+      "enrollment": 400
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT07668401",
+      "title": "AMAZE 13: A Research Study Investigating How Well the Medicine Zenagamtide Helps People in Asia With Excess Body Weight Lose Weight",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "NOT_YET_RECRUITING",
+      "condition": "Obesity",
+      "start_date": "2027-01-07",
+      "primary_completion_date": "2029-01-11",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-08",
+      "last_update_posted": "2026-08-24",
+      "enrollment": 400
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT06612268",
+      "title": "A Study to Evaluate How Well Etavopivat Works in People With Sickle Cell Disease",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Sickle Cell Disease",
+      "start_date": "2025-02-17",
+      "primary_completion_date": "2027-08-27",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-09-17",
+      "enrollment": 510
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT05669755",
+      "title": "REDEFINE 3: A Research Study to See the Effects of CagriSema in People Living With Diseases in the Heart and Blood Vessels",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Cardiovascular Disease",
+      "start_date": "2023-03-01",
+      "primary_completion_date": "2027-09-01",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-08",
+      "last_update_posted": "2026-08-31",
+      "enrollment": 7101
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT07339423",
+      "title": "AMAZE 1: A Research Study Investigating How Well the Medicine NNC0487-0111 Helps People With Excess Body Weight Lose Weight",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Obesity",
+      "start_date": "2026-02-24",
+      "primary_completion_date": "2029-06-26",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-09-24",
+      "enrollment": 1150
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT07861100",
+      "title": "A Research Study to Look at How Well Zenagamtide Works Compared to Placebo in People With Established Atherosclerotic Cardiovascular Disease and Either Overweight or Obesity",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "NOT_YET_RECRUITING",
+      "condition": "Cardiovascular Risk",
+      "start_date": "2026-10-26",
+      "primary_completion_date": "2030-09-16",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-10-06",
+      "enrollment": 8500
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT07770841",
+      "title": "Research Study on How Well Oral Semaglutide Works for Weight Loss in Adults With Excess Body Weight",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Overweight",
+      "start_date": "2026-08-12",
+      "primary_completion_date": "2028-02-22",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-09-09",
+      "enrollment": 450
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT07822061",
+      "title": "AMAZE 10: A Research Study Investigating How Well the Medicine NNC0487-0111 Helps People in Japan With Excess Body Weight Lose Weight",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Overweight",
+      "start_date": "2026-09-07",
+      "primary_completion_date": "2029-02-05",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-09-16",
+      "enrollment": 400
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT05723835",
+      "title": "A Research Study Looking at How Safe Somapacitan is and How Well it Works in Children Who Need Help to Grow - REAL 9",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "SGA",
+      "start_date": "2023-02-01",
+      "primary_completion_date": "2024-06-07",
+      "primary_completion_type": "ACTUAL",
+      "status_verified_date": "2026-08",
+      "last_update_posted": "2026-08-13",
+      "enrollment": 47
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT05135559",
+      "title": "A Research Study on How Well Concizumab Works for You if You Have Haemophilia A or B With or Without Inhibitors",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Haemophilia A and B With and Without Inhibitors",
+      "start_date": "2022-03-24",
+      "primary_completion_date": "2026-04-21",
+      "primary_completion_type": "ACTUAL",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-09-18",
+      "enrollment": 153
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT07830732",
+      "title": "A Research Study Investigating Denecimig (Mim8) in Adults With Acquired Haemophilia A",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Haemophilia A",
+      "start_date": "2026-10-16",
+      "primary_completion_date": "2029-03-23",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-10",
+      "last_update_posted": "2026-10-28",
+      "enrollment": 84
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT07076199",
+      "title": "A Research Study to See How a Weekly Insulin, Insulin Icodec, Helps in Reducing the Blood Sugar Compared to Daily Insulin Glargine, Both in Combination With Insulin Aspart, in Adults With Type 1 Diabetes",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Diabetes Mellitus, Type 1",
+      "start_date": "2025-08-11",
+      "primary_completion_date": "2027-01-25",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-09-25",
+      "enrollment": 877
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT05330325",
+      "title": "A Research Study to Compare Somapacitan Once a Week With Norditropin® Once a Day in Children Who Need Help to Grow",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "SGA, Turner Syndrome, Noonan Syndrome, ISS",
+      "start_date": "2022-08-10",
+      "primary_completion_date": "2024-08-05",
+      "primary_completion_type": "ACTUAL",
+      "status_verified_date": "2026-06",
+      "last_update_posted": "2026-06-12",
+      "enrollment": 412
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT07564414",
+      "title": "A Research Study to Look at How Two Different Doses of CagriSema and One Dose of Semaglutide Help People Living With Obesity With or Without Type 2 Diabetes Lose Weight",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Obesity",
+      "start_date": "2026-05-21",
+      "primary_completion_date": "2028-02-23",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-09-30",
+      "enrollment": 2500
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT07220759",
+      "title": "Weight Loss in People Living With Overweight or Obesity and Type 2 Diabetes Following Treatment With Cagrilintide",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Overweight",
+      "start_date": "2025-11-05",
+      "primary_completion_date": "2027-05-12",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-11",
+      "last_update_posted": "2026-11-16",
+      "enrollment": 330
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT07282613",
+      "title": "A Research Study to See How Much CagriSema Lowers Blood Sugar and Body Weight Compared to Placebo in Children and Adolescents With Type 2 Diabetes",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Diabetes Mellitus, Type 2",
+      "start_date": "2026-08-04",
+      "primary_completion_date": "2029-09-07",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-10",
+      "last_update_posted": "2026-10-19",
+      "enrollment": 80
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT05567796",
+      "title": "A Research Study to See How Well CagriSema Helps People With Excess Body Weight Lose Weight",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Obesity",
+      "start_date": "2022-11-01",
+      "primary_completion_date": "2024-10-30",
+      "primary_completion_type": "ACTUAL",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-09-30",
+      "enrollment": 3400
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT07931547",
+      "title": "A Research Study Investigating How Well Zenagamtide Lowers Blood Sugar and Body Weight Compared to Placebo in People With Type 2 Diabetes and Chronic Kidney Disease Treated With Once Daily Basal Insulin Alone or in Combination With Metformin, SGLT2i, or Both",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "NOT_YET_RECRUITING",
+      "condition": "Type 2 Diabetes",
+      "start_date": "2026-11-10",
+      "primary_completion_date": "2028-07-31",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-11",
+      "last_update_posted": "2026-11-12",
+      "enrollment": 450
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT06609226",
+      "title": "A Research Study Looking at Long-term Treatment With Etavopivat in People With Sickle Cell Disease or Thalassaemia",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Sickle Cell Disease",
+      "start_date": "2025-01-10",
+      "primary_completion_date": "2030-12-30",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-09-18",
+      "enrollment": 480
+    },
+    {
+      "company": "Novo Nordisk",
+      "group": "big_pharma",
+      "nct_id": "NCT07503210",
+      "title": "AMAZE 12: A Research Study Investigating How Well the Medicine NNC0487-0111 Helps People With Excess Body Weight Maintain Their Weight Loss",
+      "sponsor": "Novo Nordisk A/S",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Obesity",
+      "start_date": "2026-04-21",
+      "primary_completion_date": "2028-06-06",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-09-11",
+      "enrollment": 606
+    },
+    {
+      "company": "UCB",
+      "group": "big_pharma",
+      "nct_id": "NCT06315322",
+      "title": "A Study to Test the Long-term Safety and Tolerability of Brivaracetam in Study Participants With Childhood Absence Epilepsy or Juvenile Absence Epilepsy",
+      "sponsor": "UCB Biopharma SRL",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Childhood Absence Epilepsy",
+      "start_date": "2024-07-10",
+      "primary_completion_date": "2029-11-16",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-08",
+      "last_update_posted": "2026-08-27",
+      "enrollment": 70
+    },
+    {
+      "company": "UCB",
+      "group": "big_pharma",
+      "nct_id": "NCT07465289",
+      "title": "A Study to Evaluate The Long-Term Safety And Efficacy of Rozanolixizumab in Adult Participants With Ocular Myasthenia Gravis",
+      "sponsor": "UCB Biopharma SRL",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Ocular Myasthenia Gravis",
+      "start_date": "2026-09-16",
+      "primary_completion_date": "2031-03-17",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-11",
+      "last_update_posted": "2026-11-06",
+      "enrollment": 100
+    },
+    {
+      "company": "UCB",
+      "group": "big_pharma",
+      "nct_id": "NCT04976322",
+      "title": "A Study to Evaluate the Safety and Tolerability of Dapirolizumab Pegol in Study Participants With Systemic Lupus Erythematosus",
+      "sponsor": "UCB Biopharma SRL",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ENROLLING_BY_INVITATION",
+      "condition": "Systemic Lupus Erythematosus",
+      "start_date": "2021-07-27",
+      "primary_completion_date": "2030-08-07",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-11",
+      "last_update_posted": "2026-11-13",
+      "enrollment": 760
+    },
+    {
+      "company": "UCB",
+      "group": "big_pharma",
+      "nct_id": "NCT04715646",
+      "title": "A Study to Test the Safety and Tolerability of Brivaracetam in Children and Adolescents With Seizures",
+      "sponsor": "UCB Biopharma SRL",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Epilepsy",
+      "start_date": "2021-03-11",
+      "primary_completion_date": "2030-07-08",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-11",
+      "last_update_posted": "2026-11-17",
+      "enrollment": 84
+    },
+    {
+      "company": "UCB",
+      "group": "big_pharma",
+      "nct_id": "NCT05063162",
+      "title": "A Study to Evaluate the Efficacy and Safety of Rozanolixizumab in Adult Participants With Myelin Oligodendrocyte Glycoprotein (MOG) Antibody-associated Disease (MOGAD)",
+      "sponsor": "UCB Biopharma SRL",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Myelin Oligodendrocyte Glycoprotein Antibody-associated Disease (MOGAD)",
+      "start_date": "2022-02-02",
+      "primary_completion_date": "2027-05-06",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-10",
+      "last_update_posted": "2026-10-27",
+      "enrollment": 113
+    },
+    {
+      "company": "UCB",
+      "group": "big_pharma",
+      "nct_id": "NCT06425549",
+      "title": "A Study to Evaluate the Efficacy and Safety of Bimekizumab Compared to Ustekinumab in Children and Adolescents From 6 Years to Less Than 18 Years of Age With Moderate to Severe Plaque Psoriasis",
+      "sponsor": "UCB Biopharma SRL",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Moderate to Severe Plaque Psoriasis",
+      "start_date": "2024-06-25",
+      "primary_completion_date": "2028-08-21",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-09-18",
+      "enrollment": 176
+    },
+    {
+      "company": "UCB",
+      "group": "big_pharma",
+      "nct_id": "NCT07463521",
+      "title": "A Study to Evaluate the Efficacy and Safety of Rozanolixizumab in Adult Participants With Ocular Myasthenia Gravis",
+      "sponsor": "UCB Biopharma SRL",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Ocular Myasthenia Gravis",
+      "start_date": "2026-05-27",
+      "primary_completion_date": "2028-12-01",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-11",
+      "last_update_posted": "2026-11-06",
+      "enrollment": 120
+    },
+    {
+      "company": "UCB",
+      "group": "big_pharma",
+      "nct_id": "NCT06435312",
+      "title": "An Open-label Extension Study to Evaluate Subcutaneous Zilucoplan in Pediatric Participants With Generalized Myasthenia Gravis",
+      "sponsor": "UCB Biopharma SRL",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ENROLLING_BY_INVITATION",
+      "condition": "Generalized Myasthenia Gravis",
+      "start_date": "2024-11-19",
+      "primary_completion_date": "2027-10-26",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-10-02",
+      "enrollment": 8
+    },
+    {
+      "company": "UCB",
+      "group": "big_pharma",
+      "nct_id": "NCT05077904",
+      "title": "A Study to Test the Efficacy and Safety of Staccato Alprazolam in Study Participants 12 Years of Age and Older With Stereotypical Prolonged Seizures",
+      "sponsor": "UCB Biopharma SRL",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Stereotypical Prolonged Seizures",
+      "start_date": "2021-12-07",
+      "primary_completion_date": "2027-03-29",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-11",
+      "last_update_posted": "2026-11-06",
+      "enrollment": 350
+    },
+    {
+      "company": "UCB",
+      "group": "big_pharma",
+      "nct_id": "NCT06617325",
+      "title": "A Study to Evaluate the Efficacy and Safety of Dapirolizumab Pegol in Study Participants With Moderately to Severely Active Systemic Lupus Erythematosus",
+      "sponsor": "UCB Biopharma SRL",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Systemic Lupus Erythematosus",
+      "start_date": "2024-11-21",
+      "primary_completion_date": "2028-05-31",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-10",
+      "last_update_posted": "2026-11-02",
+      "enrollment": 450
+    },
+    {
+      "company": "UCB",
+      "group": "big_pharma",
+      "nct_id": "NCT05076617",
+      "title": "A Study to Test the Safety and Tolerability of Staccato Alprazolam in Study Participants 12 Years of Age and Older With Stereotypical Prolonged Seizures",
+      "sponsor": "UCB Biopharma SRL",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ENROLLING_BY_INVITATION",
+      "condition": "Stereotypical Prolonged Seizures",
+      "start_date": "2022-02-03",
+      "primary_completion_date": "2028-11-30",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-09-25",
+      "enrollment": 300
+    },
+    {
+      "company": "UCB",
+      "group": "big_pharma",
+      "nct_id": "NCT07503444",
+      "title": "A Phase 3 Study of Fenfluramine Hydrochloride in Rett Syndrome",
+      "sponsor": "UCB BIOSCIENCES, Inc.",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Rett Syndrome",
+      "start_date": "2026-07-14",
+      "primary_completion_date": "2029-02-06",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-11",
+      "last_update_posted": "2026-11-17",
+      "enrollment": 200
+    },
+    {
+      "company": "UCB",
+      "group": "big_pharma",
+      "nct_id": "NCT06506916",
+      "title": "A Study to Evaluate the Effect of Bimekizumab on Gene Expression Biomarkers in Study Participants With Moderate to Severe Plaque Psoriasis",
+      "sponsor": "UCB Biopharma SRL",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Moderate to Severe Plaque Psoriasis",
+      "start_date": "2024-07-29",
+      "primary_completion_date": "2027-03-09",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-07",
+      "last_update_posted": "2026-07-17",
+      "enrollment": 89
+    },
+    {
+      "company": "UCB",
+      "group": "big_pharma",
+      "nct_id": "NCT06540144",
+      "title": "An Extension Study Evaluating 6-week Treatment Cycles of Rozanolixizumab in Pediatric Study Participants With Generalized Myasthenia Gravis",
+      "sponsor": "UCB Biopharma SRL",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Generalized Myasthenia Gravis",
+      "start_date": "2024-10-08",
+      "primary_completion_date": "2027-10-05",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-11",
+      "last_update_posted": "2026-11-06",
+      "enrollment": 13
+    },
+    {
+      "company": "UCB",
+      "group": "big_pharma",
+      "nct_id": "NCT06668181",
+      "title": "An Open-label Study to Evaluate the Pharmacokinetics and Safety of Bimekizumab in Pediatric Study Participants With Active Juvenile Idiopathic Arthritis Subtypes Enthesitis-related Arthritis (Including Juvenile-onset Ankylosing Spondylitis) and Juvenile Psoriatic Arthritis",
+      "sponsor": "UCB Biopharma SRL",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Enthesitis-related Arthritis",
+      "start_date": "2025-03-11",
+      "primary_completion_date": "2028-04-12",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-10",
+      "last_update_posted": "2026-10-23",
+      "enrollment": 40
+    },
+    {
+      "company": "UCB",
+      "group": "big_pharma",
+      "nct_id": "NCT06055959",
+      "title": "A Study to Evaluate Subcutaneous Zilucoplan in Pediatric Participants With Generalized Myasthenia Gravis",
+      "sponsor": "UCB Biopharma SRL",
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Generalized Myasthenia Gravis",
+      "start_date": "2024-10-16",
+      "primary_completion_date": "2027-05-12",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-11",
+      "last_update_posted": "2026-11-05",
+      "enrollment": 8
+    },
+    {
+      "company": "UCB",
+      "group": "big_pharma",
+      "nct_id": "NCT06921850",
+      "title": "A Study to Assess the Pharmacokinetics and Safety of Bimekizumab in Children and Adolescents With Moderate to Severe Hidradenitis Suppurativa",
+      "sponsor": "UCB Biopharma SRL",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "condition": "Hidradenitis Suppurativa",
+      "start_date": "2025-04-07",
+      "primary_completion_date": "2026-12-21",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-09",
+      "last_update_posted": "2026-09-25",
+      "enrollment": 43
+    },
+    {
+      "company": "UCB",
+      "group": "big_pharma",
+      "nct_id": "NCT07219420",
+      "title": "A Study to Evaluate the Efficacy and Safety of Bimekizumab in Study Participants With Palmoplantar Pustulosis",
+      "sponsor": "UCB Biopharma SRL",
+      "phases": [
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "status": "RECRUITING",
+      "condition": "Palmoplantar Pustulosis",
+      "start_date": "2025-11-14",
+      "primary_completion_date": "2027-12-27",
+      "primary_completion_type": "ESTIMATED",
+      "status_verified_date": "2026-08",
+      "last_update_posted": "2026-08-27",
+      "enrollment": 320
+    }
+  ]
+}

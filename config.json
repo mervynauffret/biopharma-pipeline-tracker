@@ -1,0 +1,20 @@
+{
+  "api_url": "https://clinicaltrials.gov/api/v2/studies",
+  "statuses": ["RECRUITING", "ACTIVE_NOT_RECRUITING", "NOT_YET_RECRUITING", "ENROLLING_BY_INVITATION"],
+  "page_size": 200,
+  "groups": {
+    "biotech": "Mid-size biotech",
+    "big_pharma": "Big pharma (Phase 3)"
+  },
+  "companies": [
+    {"name": "Zealand", "query": "Zealand Pharma", "group": "biotech"},
+    {"name": "Genmab", "query": "Genmab", "group": "biotech"},
+    {"name": "Pharming", "query": "Pharming", "group": "biotech"},
+    {"name": "Ascendis", "query": "Ascendis Pharma", "group": "biotech"},
+    {"name": "argenx", "query": "argenx", "group": "biotech"},
+    {"name": "Lundbeck", "query": "Lundbeck", "group": "biotech"},
+    {"name": "Bavarian Nordic", "query": "Bavarian Nordic", "group": "biotech"},
+    {"name": "Novo Nordisk", "query": "Novo Nordisk", "group": "big_pharma", "phases": ["PHASE3"]},
+    {"name": "UCB", "query": "UCB", "group": "big_pharma", "phases": ["PHASE3"]}
+  ]
+}

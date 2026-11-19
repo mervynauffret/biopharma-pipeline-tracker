@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Biopharma Pipeline Tracker</title>
+<meta name="description" content="A weekly PMO-style portfolio view of active clinical trials led by Nordic and Benelux biotechs.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* Look copied from prototype.html:
+   sky #4fb3e8 band, ink #10223a, orange #ff7a1a only for trouble; Outfit + Inter; light and dark mode */
+:root{color-scheme:light dark;--bg:light-dark(#ffffff,#0b1726);--ink:light-dark(#10223a,#e8f1f8);--mut:light-dark(#4f6178,#9fb3c6);--line:light-dark(#dbe4ec,#22364d);--sky:#4fb3e8;--band:light-dark(#4fb3e8,#102a44);--bandink:light-dark(#0b1a2e,#e8f1f8);--or:#ff7a1a;--soft:light-dark(#f2f7fb,#11233a)}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Inter,system-ui,sans-serif;overflow-x:clip}
+h1,h2,h3{font-family:Outfit,Inter,sans-serif;font-weight:600;line-height:1.05;text-wrap:balance;margin:0}
+h1{font-size:clamp(30px,4.6vw,50px);max-width:20ch}h2{font-size:clamp(22px,2.6vw,30px);margin-bottom:6px}
+.band{padding:clamp(28px,4vw,64px) max(5vw,16px)}.wrap{max-width:1240px;margin:0 auto}
+.top{background:var(--band);color:var(--bandink)}
+.kick{font-size:14px;font-weight:500;margin:0 0 14px;opacity:.85}
+.lede{font-size:17px;max-width:62ch;margin:16px 0 28px}
+.kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;border-top:2px solid currentColor}
+.kpi{padding:14px 16px 4px 0}.kpi b{display:block;font:600 clamp(32px,4.4vw,52px)/1 Outfit,sans-serif}.kpi span{font-size:14px}
+.kpi.hot b{color:light-dark(#10223a,#ff7a1a)}.kpi.hot b::after{content:"";display:inline-block;width:12px;height:12px;border-radius:50%;background:var(--or);margin-left:8px;vertical-align:middle}
+.sub{color:var(--mut);font-size:15px;margin:0 0 18px;max-width:70ch}
+.grid2{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(24px,4vw,56px);align-items:start}
+.heat{width:100%;border-collapse:collapse;font-size:14px}.heat th{white-space:nowrap;font-weight:500;color:var(--mut);text-align:right;padding:6px 4px;font-size:13px}.heat th:first-child{text-align:left}
+.heat td{text-align:right;padding:0;border:2px solid var(--bg)}.heat td:first-child{text-align:left;padding:8px 6px 8px 0;font-weight:500;white-space:nowrap}
+.heat td span{display:block;padding:8px 6px;border-radius:3px;font-variant-numeric:tabular-nums}
+.heat td.tot{font-weight:600;padding-right:4px}
+.fig{position:relative}.fig>svg{position:absolute;inset:0;width:100%;height:100%}
+.legend{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:13px;color:var(--mut);margin:0 0 10px}.legend i{display:inline-block;width:22px;height:9px;border-radius:2px;margin-right:6px;vertical-align:middle}
+.tip{position:absolute;pointer-events:none;background:var(--ink);color:var(--bg);font-size:13px;line-height:1.4;padding:8px 10px;border-radius:6px;max-width:280px;opacity:0;transition:opacity .12s;z-index:2}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px}
+.chips button{font:500 14px Inter,sans-serif;min-height:44px;padding:0 16px;border-radius:22px;border:1px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer}
+.chips button[aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.chips button:focus-visible{outline:3px solid var(--sky);outline-offset:2px}
+table.board{width:100%;border-collapse:collapse;font-size:14px}
+.board th{text-align:left;font-weight:500;color:var(--mut);font-size:13px;padding:8px 10px;border-bottom:2px solid var(--ink)}
+.board td{padding:10px;border-bottom:1px solid var(--line);vertical-align:top}.board td.n{white-space:nowrap;font-variant-numeric:tabular-nums}
+.board a{color:inherit;text-underline-offset:3px}.board small{display:block;color:var(--mut);font-size:13px}
+.flag{display:inline-flex;align-items:center;gap:6px;white-space:nowrap;font-weight:500}.flag::before{content:"";width:10px;height:10px;border-radius:50%;background:var(--c);box-sizing:border-box}
+.flag.quiet{font-weight:400;color:var(--mut)}.flag.quiet::before{background:none;border:1.5px solid var(--mut)}
+.empty{color:var(--mut);font-size:15px;border:1px dashed var(--line);border-radius:6px;padding:16px;max-width:70ch}
+.notes{background:var(--soft)}
+.three{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(20px,3vw,40px);margin-top:18px}
+.three article{border-top:2px solid var(--ink);padding-top:14px}.three h3{font-size:21px;margin-bottom:8px}.three p{margin:0 0 8px;font-size:15.5px}
+.three .ask{color:var(--mut);font-size:15px}
+.method{font-size:14.5px;color:var(--mut)}.method ul{padding-left:18px;margin:8px 0}.method b{color:var(--ink);font-weight:600}
+.foot{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;border-top:1px solid var(--line);margin-top:24px;padding-top:14px}
+.foot a{color:var(--ink)}
+.scroll{overflow-x:auto}
+@media(max-width:900px){.grid2,.three{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:600px){.heat td span{padding:7px 3px}.heat th{padding:6px 2px;font-size:12px}.heat td:first-child{white-space:normal;padding-right:4px}.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}table{font-size:13px}.stack thead{display:none}.stack tr{display:grid;padding-block:10px;border-bottom:1px solid var(--line)}.stack td{display:flow-root;border:0;padding:3px 0;padding-inline-start:8em;text-align:start}.stack td::before{content:attr(data-l);float:inline-start;width:7.5em;margin-inline-start:-8em;white-space:normal;color:var(--mut)}.stack td:empty{display:none}}
+.switch{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px}
+.switch button{font:500 14px Inter,sans-serif;min-height:44px;padding:0 16px;border-radius:22px;border:1.5px solid currentColor;background:transparent;color:inherit;cursor:pointer}
+.switch button[aria-pressed=true]{background:var(--bandink);color:var(--band);border-color:var(--bandink)}
+.switch button:focus-visible{outline:3px solid var(--bandink);outline-offset:2px}
+@media(prefers-reduced-motion:reduce){.tip{transition:none}}
+</style>
+</head>
+<body>
+
+<header class="band top" id="summary"><div class="wrap">
+  <p class="kick" id="kick">Biopharma Pipeline Tracker · Nordic and Benelux biotech and pharma</p>
+  <div class="switch" id="switch" role="group" aria-label="Choose which group of companies to show"></div>
+  <h1 id="headline">Loading the latest snapshot…</h1>
+  <p class="lede" id="lede">A portfolio view of every active clinical trial led by a group of mid-size biotechs, read the way a PMO reads a programme: what is late-stage, what is due, and which milestones have slipped past plan.</p>
+  <div class="kpis" id="kpis"></div>
+</div></header>
+
+<section class="band" id="portfolio"><div class="wrap grid2">
+  <div>
+    <h2>Where the portfolio sits</h2>
+    <p class="sub">Active trials by company and phase. Darker means more trials.</p>
+    <div class="scroll"><table class="heat" id="heat"></table></div>
+    <p class="sub" style="margin-top:14px" id="heatnote"></p>
+  </div>
+  <div>
+    <h2>Late-stage milestones</h2>
+    <p class="sub">Every active Phase 3 and Phase 2/3 trial, from start to primary completion.</p>
+    <div class="legend">
+      <span><i style="background:var(--ink)"></i>Primary data in</span>
+      <span><i style="border:1.5px solid var(--ink)"></i>Estimated date</span>
+      <span><i style="background:var(--or)"></i>Estimated date has passed</span>
+    </div>
+    <div class="fig" id="tl"><svg id="tlsvg" role="img" aria-label="Timeline of late-stage trials"></svg><div class="tip" id="tip"></div></div>
+  </div>
+</div></section>
+
+<section class="band" id="flags" style="padding-top:0"><div class="wrap">
+  <h2>Flag board</h2>
+  <p class="sub">Each trial gets one flag, worst first. Orange means the sponsor's own estimated primary completion date is behind us and the record still shows the trial running.</p>
+  <div class="chips" id="chips" role="group" aria-label="Filter flags"></div>
+  <table class="board stack" id="board"><thead><tr><th>Flag</th><th>Company</th><th>Trial</th><th>Phase</th><th>Primary completion</th><th>Last verified</th></tr></thead><tbody></tbody></table>
+</div></section>
+
+<section class="band" id="slips" style="padding-top:0"><div class="wrap">
+  <h2>Slip tracker</h2>
+  <p class="sub">Trials whose estimated primary completion date moved later since the previous weekly snapshot: schedule variance against a baseline.</p>
+  <div id="sliparea"></div>
+</div></section>
+
+<section class="band" id="benchmark" style="padding-top:0"><div class="wrap">
+  <h2>Biotech vs big pharma</h2>
+  <p class="sub">Like for like: Phase 3 and Phase 2/3 trials only, in both groups. Each problem is counted on its own, even when a trial has both.</p>
+  <div class="scroll"><table class="board" id="bench"></table></div>
+  <p class="sub" style="margin-top:14px">With counts this small, treat a difference as something to watch over the coming weeks, not as a conclusion.</p>
+</div></section>
+
+<section class="band notes" id="committee"><div class="wrap">
+  <h2>Three things I would raise at the portfolio committee</h2>
+  <p class="sub" id="notesdate"></p>
+  <div class="three" id="three"></div>
+</div></section>
+
+<section class="band" id="pmo"><div class="wrap">
+  <h2>How I'd use this in a PMO</h2>
+  <div class="three">
+    <article><h3>Weekly status</h3><p>The KPI strip and flag board are the one-page status report: what changed, what is due and what needs chasing, refreshed every Monday without manual work.</p></article>
+    <article><h3>Stage-gate preparation</h3><p>The heatmap and timeline show where the portfolio sits and which readouts feed the next go/no-go decisions, so committee packs start from the same picture.</p></article>
+    <article><h3>Risk and action log</h3><p>Past-target and unverified trials become open questions with an owner. The slip tracker turns date changes into variance against a baseline, the way a programme schedule is controlled.</p></article>
+  </div>
+</div></section>
+
+<section class="band method" id="method"><div class="wrap">
+  <h2 style="color:var(--ink)">How this is built</h2>
+  <ul>
+    <li><b>Source:</b> ClinicalTrials.gov API v2, trials where the company is lead sponsor and the status is recruiting, active, not yet recruiting or enrolling by invitation. <span id="pulled"></span></li>
+    <li><b>Snapshot date:</b> every rule compares against the date the data was pulled, not the date you are reading. A month-only date (e.g. "Sep 2026") counts as the last day of that month.</li>
+    <li><b>Past target:</b> primary completion date is marked <i>estimated</i> by the sponsor and is earlier than the snapshot date. This can be a real delay or a registry entry that hasn't been updated: both are worth a question.</li>
+    <li><b>Not verified 12m+:</b> the sponsor hasn't confirmed the record in over a year. <b>Due ≤6 months:</b> estimated primary completion within six months, Phase 2 or later. <b>Data in:</b> the primary completion date is actual, so the trial is in follow-up. <b>On track:</b> none of the above.</li>
+    <li><b>Big pharma benchmark:</b> <span id="bigpharma">large companies</span>, Phase 3 and 2/3 trials only, kept in their own view so they don't swamp the mid-size biotech picture.</li>
+    <li><b>Refresh:</b> a scheduled job pulls a new snapshot every Monday and keeps each week's file, so date slips build up as history.</li>
+    <li><b>Caveats:</b> registry data can lag reality, and sponsors update at different speeds. Galapagos was in scope but returned no trials under that sponsor name. Public registry data only; not investment advice.</li>
+  </ul>
+  <div class="foot"><span>Built by Mervyn Auffret</span><a href="https://www.linkedin.com/in/mervynauffret/">LinkedIn</a></div>
+</div></section>
+
+<script>
+// Mobile view: label each table cell with its column name, so stacked rows stay readable on a phone.
+new MutationObserver(() => {
+  for (const c of document.querySelectorAll('.stack td:not([data-l])')) {
+    let i = 0, p = c;
+    while ((p = p.previousElementSibling)) i += p.colSpan;
+    c.dataset.l = c.closest('table').rows[0].cells[i]?.textContent || '';
+  }
+}).observe(document, {childList: true, subtree: true});
+</script>
+
+<script>
+// ---------- small helpers ----------
+const el = id => document.getElementById(id);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, ch => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[ch]));
+const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+
+// '2026-09-30' -> date; '2026-09' -> last day of the month (endOfMonth) or the first day
+function parseDate(text, endOfMonth) {
+  if (!text) return null;
+  const p = text.split('-').map(Number);
+  if (p.length === 3) return new Date(p[0], p[1] - 1, p[2]);
+  return endOfMonth ? new Date(p[0], p[1], 0) : new Date(p[0], p[1] - 1, 1);
+}
+// '2026-09-30' -> '30 Sep 2026'; '2026-09' -> 'Sep 2026'
+function fmt(text) {
+  if (!text) return '—';
+  const p = text.split('-');
+  return (p[2] ? +p[2] + ' ' : '') + MONTHS[+p[1] - 1] + ' ' + p[0];
+}
+
+const STATUS = {RECRUITING: 'Recruiting', ACTIVE_NOT_RECRUITING: 'Active, not recruiting',
+                NOT_YET_RECRUITING: 'Not yet recruiting', ENROLLING_BY_INVITATION: 'Enrolling by invitation'};
+const FLAG_COLOUR = {past_target: 'var(--or)', not_verified: '#e8b21a', due_soon: 'var(--sky)',
+                     data_in: 'light-dark(#8aa0b5,#5d7590)', on_track: ''};
+const FLAG_ORDER = ['past_target', 'not_verified', 'due_soon', 'data_in', 'on_track'];
+const SHORT_PHASE = {'Phase 1': 'Ph 1', 'Phase 1/2': '1/2', 'Phase 2': 'Ph 2', 'Phase 2/3': '2/3',
+                     'Phase 3': 'Ph 3', 'Phase 4': 'Ph 4', 'Obs.': 'Obs.', 'No phase': 'None'};
+const LATE = ['Phase 3', 'Phase 2/3'];
+
+// ---------- load data, then draw each section ----------
+Promise.all([
+  fetch('data/latest.json').then(r => r.json()),
+  fetch('insights.md').then(r => r.ok ? r.text() : '')
+]).then(([data, notes]) => {
+  data.trials.forEach(t => {
+    t.completion = parseDate(t.primary_completion_date, true);
+    t.start = parseDate(t.start_date, false);
+  });
+  const big = data.groups.big_pharma;
+  if (big) el('bigpharma').textContent = big.heatmap.map(r => r.company).join(' and ');
+  drawBenchmark(data);
+  drawNotes(notes);
+  drawGroupSwitch(data);
+}).catch(err => {
+  el('headline').textContent = 'Could not load the data';
+  el('lede').textContent = 'Open this page through a web server (for example: python3 -m http.server), not by double-clicking the file. ' + err;
+});
+
+// ---------- group switch: redraw the group-specific sections ----------
+function drawGroupSwitch(data) {
+  const keys = Object.keys(data.groups);
+  let current = keys[0];
+  try { const saved = localStorage.getItem('ct-group'); if (keys.includes(saved)) current = saved; } catch (e) {}
+
+  function show(key) {
+    current = key;
+    el('switch').innerHTML = keys.length < 2 ? '' : keys.map(k =>
+      `<button type="button" data-g="${k}" aria-pressed="${k === key}">${esc(data.groups[k].label)}</button>`).join('');
+    // A "view" is the shared data plus this group's summary, trials and slips
+    const view = {...data, ...data.groups[key], group: key,
+                  trials: data.trials.filter(t => t.group === key),
+                  slips: (data.slips || []).filter(s => s.group === key)};
+    drawHeader(view);
+    drawHeatmap(view, view.trials);
+    drawTimeline(view, view.trials);
+    drawFlagBoard(view, view.trials);
+    drawSlips(view);
+  }
+  el('switch').onclick = e => {
+    const b = e.target.closest('button');
+    if (!b) return;
+    try { localStorage.setItem('ct-group', b.dataset.g); } catch (e) {}
+    show(b.dataset.g);
+  };
+  show(current);
+}
+
+// ---------- benchmark: both groups side by side, Phase 3 and 2/3 only ----------
+function drawBenchmark(data) {
+  const rows = Object.values(data.benchmark || {});
+  if (rows.length < 2) { el('benchmark').hidden = true; return; }
+  const cell = (n, of, pct) => `<td class="n"><b>${n}</b> of ${of} <small>${pct}%</small></td>`;
+  el('bench').innerHTML = `<thead><tr><th>Group</th><th>Phase 3 and 2/3 trials</th><th>Past target</th><th>Not verified 12m+</th></tr></thead><tbody>` +
+    rows.map(b => `<tr><td>${esc(b.label)}</td><td class="n">${b.late_stage}</td>` +
+      cell(b.past_target, b.late_stage, b.past_target_pct) + cell(b.not_verified, b.late_stage, b.not_verified_pct) + '</tr>').join('') +
+    '</tbody>';
+}
+
+// ---------- header and KPI strip ----------
+function drawHeader(data) {
+  const k = data.kpis;
+  const due = k.due_by.split('-');
+  el('kick').textContent = `Biopharma Pipeline Tracker · Nordic and Benelux biotech and pharma · snapshot ${fmt(data.snapshot_date)}`;
+  el('headline').textContent = data.headline;
+  const isBig = data.group === 'big_pharma';
+  el('lede').textContent = isBig
+    ? `The same rules applied to the Phase 3 and 2/3 trials of ${k.companies} large pharma companies, as a benchmark for the mid-size biotech view.`
+    : `A portfolio view of every active clinical trial led by ${k.companies} mid-size biotechs, read the way a PMO reads a programme: what is late-stage, what is due, and which milestones have slipped past plan.`;
+  el('pulled').textContent = `Pulled ${fmt(data.snapshot_date)}.`;
+  const tiles = [
+    [k.active, isBig ? `Phase 3 and 2/3 trials, ${k.companies} companies` : `active trials, ${k.companies} companies`, ''],
+    // Every big pharma trial here is late-stage, so the second tile shows primary data in instead
+    isBig ? [k.data_in, 'with primary data in', ''] : [k.late_stage, 'in Phase 3 or Phase 2/3', ''],
+    [k.past_target, `past ${k.past_target === 1 ? 'its' : 'their'} own estimated completion date`, k.past_target ? 'hot' : ''],
+    [k.due_soon, `Phase 2+ readouts due by ${MONTHS[+due[1] - 1]} ${due[0]}`, '']
+  ];
+  el('kpis').innerHTML = tiles.map(([v, label, cls]) =>
+    `<div class="kpi ${cls}"><b>${v}</b><span>${esc(label)}</span></div>`).join('');
+}
+
+// ---------- heatmap: company x phase ----------
+function drawHeatmap(data, trials) {
+  // Hide phase columns that are empty for every company this week
+  const cols = data.phase_columns.filter(col => data.heatmap.some(row => row.counts[col] > 0));
+  const max = Math.max(...data.heatmap.flatMap(row => cols.map(col => row.counts[col])));
+  const head = `<thead><tr><th>Company</th>${cols.map(c => `<th>${SHORT_PHASE[c] || c}</th>`).join('')}<th>Total</th></tr></thead>`;
+  const body = data.heatmap.map(row => {
+    const cells = cols.map(col => {
+      const v = row.counts[col];
+      const alpha = v ? 0.1 + 0.8 * v / max : 0;
+      const strong = alpha > 0.55 ? 'color:#0b1a2e;font-weight:600' : '';
+      return `<td><span style="background:rgba(79,179,232,${alpha.toFixed(2)});${strong}">${v || '·'}</span></td>`;
+    }).join('');
+    return `<tr><td>${esc(row.company)}</td>${cells}<td class="tot">${row.total}</td></tr>`;
+  }).join('');
+  el('heat').innerHTML = head + '<tbody>' + body + '</tbody>';
+
+  // Written note, calculated from the data
+  if (data.group === 'big_pharma') {
+    el('heatnote').textContent = 'Big pharma is shown for Phase 3 and 2/3 only: ' +
+      data.heatmap.map(r => `${r.company} ${r.total}`).join(', ') + ' active late-stage trials.';
+    return;
+  }
+  const share = row => (row.counts['Phase 3'] + row.counts['Phase 2/3']) / row.total;
+  const heavy = [...data.heatmap].sort((a, b) => share(b) - share(a))[0];
+  const spread = row => cols.filter(col => row.counts[col] > 0).length;
+  const wide = [...data.heatmap].sort((a, b) => spread(b) - spread(a) || b.total - a.total)[0];
+  const lateCount = heavy.counts['Phase 3'] + heavy.counts['Phase 2/3'];
+  el('heatnote').textContent =
+    `${heavy.company} is the most late-stage-heavy: ${lateCount} of its ${heavy.total} active trials are Phase 3 or 2/3. ` +
+    `${wide.company} runs the widest spread, with ${wide.total} trials across ${spread(wide)} phase groups.`;
+}
+
+// ---------- timeline of late-stage trials ----------
+function drawTimeline(data, trials) {
+  const snap = parseDate(data.snapshot_date, false);
+  const companies = data.heatmap.map(r => r.company);
+  const late = trials.filter(t => LATE.includes(t.phase_label) && t.completion);
+
+  // One heading row per company, then its trials sorted by completion date
+  const rows = [];
+  companies.forEach(c => {
+    const mine = late.filter(t => t.company === c).sort((a, b) => a.completion - b.completion);
+    if (mine.length) { rows.push({group: c, count: mine.length}); mine.forEach(t => rows.push({t})); }
+  });
+
+  // Axis: from the earliest start year to the latest completion year, capped 5 years after the snapshot
+  const firstYear = Math.min(...late.map(t => (t.start || t.completion).getFullYear()));
+  const lastYear = Math.min(Math.max(...late.map(t => t.completion.getFullYear())), snap.getFullYear() + 5);
+  const X0 = new Date(firstYear, 0, 1), X1 = new Date(lastYear, 11, 31);
+
+  const box = el('tl'), svg = el('tlsvg'), tip = el('tip');
+  function draw() {
+    const W = box.clientWidth, narrow = W < 520, labelW = narrow ? Math.min(118, W * 0.34) : 200;
+    const RH = 17, GH = 26, top = 22;
+    let y = top;
+    rows.forEach(r => { r.y = y; y += r.group ? GH : RH; });
+    const H = y + 8;
+    box.style.height = H + 'px';
+    const x = d => labelW + (Math.min(Math.max(d, X0), X1) - X0) / (X1 - X0) * (W - labelW - 8);
+
+    let s = '';
+    const span = lastYear - firstYear + 1;
+    const step = Math.max(1, Math.ceil(span / (narrow ? 3 : 6)));
+    for (let yr = firstYear; yr <= lastYear; yr += step) {
+      const xx = x(new Date(yr, 0, 1));
+      s += `<line x1="${xx}" x2="${xx}" y1="${top - 6}" y2="${H}" stroke="var(--line)"/>` +
+           `<text x="${xx}" y="12" font-size="12" fill="var(--mut)" text-anchor="middle">${yr}</text>`;
+    }
+    const tx = x(snap);
+    s += `<line x1="${tx}" x2="${tx}" y1="${top - 6}" y2="${H}" stroke="var(--ink)" stroke-width="1.5"/>` +
+         `<text x="${tx + 4}" y="${H - 4}" font-size="12" fill="var(--ink)">today</text>`;
+
+    rows.forEach((r, i) => {
+      if (r.group) {
+        s += `<text x="0" y="${r.y + 17}" font-size="13" font-weight="600" fill="var(--ink)">${esc(r.group)} · ${r.count}</text>`;
+        return;
+      }
+      const t = r.t, x1 = x(t.start || t.completion), x2 = Math.max(x(t.completion), x1 + 3);
+      const yy = r.y + 4, h = RH - 8;
+      const colour = t.flag === 'past_target' ? 'var(--or)' : 'var(--ink)';
+      const label = (t.condition || '').slice(0, narrow ? 14 : 26);
+      s += `<text x="${narrow ? 6 : 10}" y="${yy + h - 1}" font-size="12" fill="var(--mut)">${esc(label)}</text>`;
+      if (t.primary_completion_type === 'ACTUAL' || t.flag === 'past_target') {
+        s += `<rect x="${x1}" y="${yy}" width="${x2 - x1}" height="${h}" rx="2" fill="${colour}"/>`;
+      } else {
+        s += `<rect x="${x1 + .75}" y="${yy + .75}" width="${Math.max(x2 - x1 - 1.5, 1)}" height="${h - 1.5}" rx="2" fill="none" stroke="${colour}" stroke-width="1.5"/>`;
+      }
+      if (t.completion > X1) {
+        s += `<text x="${W - 6}" y="${yy + h - 1}" font-size="11" fill="var(--mut)" text-anchor="end">→ ${t.primary_completion_date.slice(0, 4)}</text>`;
+      }
+      s += `<rect data-i="${i}" x="0" y="${r.y}" width="${W}" height="${RH}" fill="transparent"/>`;
+    });
+    svg.innerHTML = s;
+  }
+  // Redraw when the box changes size. Stop the previous group's observer first.
+  if (tlObserver) tlObserver.disconnect();
+  tlObserver = new ResizeObserver(draw);
+  tlObserver.observe(box);
+  draw();  // draw once now too, in case the observer waits until the section is on screen
+
+  // Tooltip on hover (assigning onmousemove replaces the previous group's handler)
+  svg.onmousemove = e => {
+    const i = e.target.dataset && e.target.dataset.i;
+    if (i === undefined) { tip.style.opacity = 0; return; }
+    const t = rows[i].t, b = box.getBoundingClientRect();
+    tip.innerHTML = `<b>${esc(t.company)} · ${esc(t.phase_label)}</b><br>${esc(t.title)}<br>${esc(t.condition)}<br>` +
+      `Start ${fmt(t.start_date)} → primary completion ${fmt(t.primary_completion_date)} (${t.primary_completion_type === 'ACTUAL' ? 'actual' : 'estimated'})`;
+    const tw = tip.offsetWidth;
+    let lx = e.clientX - b.left + 14;
+    if (lx + tw > b.width) lx = e.clientX - b.left - tw - 14;
+    tip.style.left = Math.max(0, lx) + 'px';
+    tip.style.top = (e.clientY - b.top + 14) + 'px';
+    tip.style.opacity = 1;
+  };
+  svg.onmouseleave = () => tip.style.opacity = 0;
+}
+let tlObserver = null;
+
+// ---------- flag board with filter buttons ----------
+function drawFlagBoard(data, trials) {
+  const FILTERS = [
+    ['attn', 'Needs attention', t => t.flag === 'past_target' || t.flag === 'not_verified'],
+    ['soon', 'Due ≤6 months', t => t.flag === 'due_soon'],
+    ['in', 'Data in', t => t.flag === 'data_in'],
+    ['ok', 'On track', t => t.flag === 'on_track'],
+    ['all', 'All trials', t => true]
+  ];
+  let current = 'attn';
+  try { current = localStorage.getItem('ct-filter') || current; } catch (e) {}
+
+  function render() {
+    const f = FILTERS.find(x => x[0] === current) || FILTERS[0];
+    el('chips').innerHTML = FILTERS.map(([key, label, test]) =>
+      `<button type="button" data-k="${key}" aria-pressed="${key === f[0]}">${label} · ${trials.filter(test).length}</button>`).join('');
+    const list = trials.filter(f[2]).sort((a, b) =>
+      FLAG_ORDER.indexOf(a.flag) - FLAG_ORDER.indexOf(b.flag) || (a.completion - b.completion));
+    el('board').tBodies[0].innerHTML = list.map(t => {
+      const quiet = t.flag === 'on_track' ? ' quiet' : '';
+      return `<tr>
+        <td><span class="flag${quiet}" style="--c:${FLAG_COLOUR[t.flag]}">${esc(data.flags[t.flag])}</span></td>
+        <td>${esc(t.company)}</td>
+        <td><a href="https://clinicaltrials.gov/study/${esc(t.nct_id)}">${esc(t.title)}</a>
+            <small>${esc(t.condition)} · ${STATUS[t.status] || esc(t.status)} · ${esc(t.nct_id)}</small></td>
+        <td class="n">${t.phase_label === 'Obs.' ? 'Observational' : esc(t.phase_label)}</td>
+        <td class="n">${fmt(t.primary_completion_date)}<small>${t.primary_completion_type === 'ACTUAL' ? 'actual' : 'estimated'}</small></td>
+        <td class="n">${fmt(t.status_verified_date)}</td>
+      </tr>`;
+    }).join('') || '<tr><td colspan="6">Nothing flagged here.</td></tr>';
+  }
+  el('chips').onclick = e => {
+    const b = e.target.closest('button');
+    if (!b) return;
+    current = b.dataset.k;
+    try { localStorage.setItem('ct-filter', current); } catch (e) {}
+    render();
+  };
+  render();
+}
+
+// ---------- slip tracker: completion dates that moved later since last week ----------
+function drawSlips(data) {
+  const area = el('sliparea');
+  if (!data.previous_snapshot) {
+    area.innerHTML = `<p class="empty">Slip tracking starts once there are two weekly snapshots to compare. First snapshot: ${fmt(data.snapshot_date)}.</p>`;
+    return;
+  }
+  const since = `since the ${fmt(data.previous_snapshot)} snapshot`;
+  if (!data.slips || !data.slips.length) {
+    area.innerHTML = `<p class="empty">No primary completion dates moved later ${since}.</p>`;
+    return;
+  }
+  const rows = data.slips.map(s => `<tr>
+      <td>${esc(s.company)}</td>
+      <td><a href="https://clinicaltrials.gov/study/${esc(s.nct_id)}">${esc(s.title)}</a><small>${esc(s.nct_id)}</small></td>
+      <td class="n">${esc(s.phase)}</td>
+      <td class="n">${fmt(s.old_date)} → ${fmt(s.new_date)}</td>
+      <td class="n"><b>+${s.months_slipped}</b> months</td>
+    </tr>`).join('');
+  area.innerHTML = `<p class="sub">${data.slips.length} trial${data.slips.length === 1 ? '' : 's'} moved later ${since}.</p>
+    <table class="board stack"><thead><tr><th>Company</th><th>Trial</th><th>Phase</th><th>Primary completion</th><th>Slip</th></tr></thead>
+    <tbody>${rows}</tbody></table>`;
+}
+
+// ---------- committee notes from insights.md ----------
+// Format: '## Title', then paragraph lines, then a line starting 'Ask:'
+function drawNotes(text) {
+  text = text.replace(/<!--[\s\S]*?-->/g, '');
+  const dateMatch = text.match(/Written for snapshot:\s*(\S+)/);
+  el('notesdate').textContent = dateMatch ? `My notes, written for the ${fmt(dateMatch[1])} snapshot.` : '';
+  const cards = text.split(/^## /m).slice(1).map(block => {
+    const lines = block.trim().split('\n');
+    const title = lines.shift();
+    const ask = lines.filter(l => /^Ask:/i.test(l.trim())).join(' ');
+    const body = lines.filter(l => l.trim() && !/^Ask:/i.test(l.trim())).join(' ');
+    return `<article><h3>${esc(title)}</h3><p>${esc(body)}</p>${ask ? `<p class="ask">${esc(ask)}</p>` : ''}</article>`;
+  });
+  el('three').innerHTML = cards.join('') || '<p class="empty">No notes written yet.</p>';
+}
+</script>
+</body>
+</html>

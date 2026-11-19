@@ -1,0 +1,59 @@
+# Weekly refresh: every Monday 06:00 UTC, pull a new snapshot, rebuild, save it, publish the page.
+# Also publishes on every push to main (e.g. new committee notes) and has a manual "Run workflow" button.
+name: Weekly snapshot
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"     # minute 0, hour 6 (UTC), every Monday
+  workflow_dispatch:         # manual button in the Actions tab
+  push:
+    branches: [main]
+
+permissions:
+  contents: write            # to save the new snapshot into the repo
+  pages: write               # to publish the site
+  id-token: write            # required by the Pages deploy step
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  update-and-publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Get the repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        if: github.event_name != 'push'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch new data and rebuild
+        if: github.event_name != 'push'
+        run: |
+          pip install requests
+          python fetch.py
+          python build.py
+
+      - name: Save the new snapshot to the repository
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Weekly snapshot $(date -u +%F)"
+          git push
+
+      - name: Publish the site
+        uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: deployment
+        uses: actions/deploy-pages@v4
